@@ -30,10 +30,10 @@
       $("#dick1").animate({height:"300px"});
 
       var request = $.ajax({
+        type: "GET",
         url:"http://dblp.uni-trier.de/pers/xk/t/Thaler:Stefan.xml",
-        cache:false,
         dataType: "xml",
-        type: "GET"
+        headers : { "Access-Control-Allow-Origin":"http://stefanthaler.github.io/"}
       });
       request.success(function(result) {
         console.log(result);
