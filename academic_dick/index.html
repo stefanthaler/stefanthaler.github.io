@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Academic Dick Comparison</title>
+  <style type="text/css">
+    #dick1 {
+      position: absolute;
+      bottom: 5px;
+      left: 65%;
+    }
+    #dick2 {
+      position: absolute;
+      bottom: 5px;
+      left: 35%;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    function handle_search_results(data,status)
+    {
+      alert("Data: " + data + "\nStatus: " + status);
+    }
+
+    function compare_dicks()
+    {
+      //$("dick1").animate({width:200px, height:200px, 1000});
+      $("#dick1").animate({height:"300px"});
+
+      var request = $.ajax({
+        url:"http://dblp.uni-trier.de/pers/xk/t/Thaler:Stefan.xml",
+        cache:false,
+        dataType: "xml",
+        type: "GET"
+      });
+      request.success(function(result) {
+        console.log(result);
+        });
+      request.error(function(jqXHR, textStatus, errorThrown) {
+      if (textStatus == 'error')
+        console.log(errorThrown);
+
+      });
+
+    }
+  </script>
+  <!--jQuery scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+
+  <button id="compare" onclick="compare_dicks();"> Compare </button>
+  <input id="name1" name="name1" type="text" />
+  <input id="name1" name="name2" type="text" />
+
+  <img id="dick1" src="pic.svg" width="100" height="100" />
+
+  <img id="dick2" src="pic.svg" width="100" height="100" />
+
+
+
+</body>
+</html>
