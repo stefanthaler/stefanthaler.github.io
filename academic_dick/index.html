@@ -36,6 +36,7 @@
         url: requrl,
         data: queryparams,
         type : "POST",
+        headers : {"Access-Control-Allow-Headers" : "x-requested-with"},
         crossDomain : true
       })
       request.success(function(result) {
