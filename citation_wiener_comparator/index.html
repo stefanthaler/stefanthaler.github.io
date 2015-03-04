@@ -48,12 +48,12 @@
       dick2_left = $( window ).width() * 0.75 - dick2_width/2
 
       $("#dick1").css({left: dick1_left});
-      $("#up_1").css({left: $( window ).width() * 0.25});
+      $("#up_1").css({left: $( window ).width() * 0.25 - 10});
       $("#dick1").animate({height: dick1_height+"px", width:dick1_width+'px' });
 
       $("#dick2").css({left: dick2_left});
       $("#dick2").animate({height: dick2_height+"px", width:dick2_width+'px' });
-      $("#up_2").css({left: $( window ).width() * 0.75});
+      $("#up_2").css({left: $( window ).width() * 0.75 - 10});
     }
     function reset_dicks()
     {
