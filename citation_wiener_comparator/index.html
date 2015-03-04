@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Citation Wiener Comparison</title>
+  <style type="text/css">
+
+    body {
+      height: 100%;
+      margin: 0;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+    #dick1,#dick2 {
+      position: absolute;
+      bottom: 2%;
+    }
+    #up_1,#up_2 {
+      position: absolute;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    function animate(cit_number1, cit_number2)
+    {
+      //TODO progress bar for fetching citation
+      //Dick comparison
+      //TODO add Name, add percentage (coount)
+      //TODO dick icon
+      //TODO styling
+      //TODO find out acutal average citations
+      //TODO attribute creator of clipart
+
+      max_dick_height = $( window ).height() - $('#dick_header').height() - 100
+      dick_aspect_ratio=772/1288
+
+      var max = (parseInt(cit_number1)>parseInt(cit_number2)) ? cit_number1 : cit_number2 ;
+      dick1_height = max_dick_height*(cit_number1/max) //percentage of display height
+      dick1_width = dick1_height * dick_aspect_ratio
+      dick1_left = $( window ).width() * 0.25 - dick1_width/2
+
+      dick2_height = max_dick_height*(cit_number2/max) //percentage of display height
+      dick2_width = dick2_height * dick_aspect_ratio
+      dick2_left = $( window ).width() * 0.75 - dick2_width/2
+
+      $("#dick1").css({left: dick1_left});
+      $("#up_1").css({left: $( window ).width() * 0.25});
+      $("#dick1").animate({height: dick1_height+"px", width:dick1_width+'px' });
+
+      $("#dick2").css({left: dick2_left});
+      $("#dick2").animate({height: dick2_height+"px", width:dick2_width+'px' });
+      $("#up_2").css({left: $( window ).width() * 0.75});
+    }
+    function reset_dicks()
+    {
+      $("#dick1").animate({height: "0px", width: '0px' }, 70);
+      $("#dick2").animate({height: "0px", width: '0px' }, 70);
+    }
+
+    function compare_dicks()
+    {
+      cit_number1 = $("#citations_1").val()
+      cit_number2 = $("#citations_2").val()
+      console.log(cit_number1)
+      console.log(cit_number2)
+      animate(cit_number1, cit_number2)
+    }
+
+    function add_results(person_id, results)
+    {
+      select_id = "#citations_"+person_id
+      select = $(select_id)
+      select.find('option:gt(0)').remove(); //clear all options except first
+      for (var pos in results) // add all received results to the drop down
+      {
+        result = results[pos]
+        select.append('<option value="'+result['n_citation']+'">'+result['name']+'</option>')
+      }
+      $(select_id+' :nth-child(2)').prop('selected', true); //automatically select 2nd element
+
+    }
+
+    function fetch_citations_for(person_id)
+    {
+      console.log(person_id)
+      $("#status_"+person_id).text("")
+      name =  $("#name_"+person_id).val()
+      if (!name)
+      {
+        console.log("No name specified")
+         $("#status_"+person_id).html("Please specify a name")
+        return;
+      }
+      //var requrl = "http://api.yutao.us/api/search/pub?query=stefan+thaler&size=20&sort=relevance"
+      var requrl = "http://api.yutao.us/api/search/people"
+      var queryparams =  '{"query":"'+name+'","size":20,"sort":"relevance","filters":{}}'
+      $("#fetch_"+person_id).prop('disabled', true);
+      var request = $.ajax({
+        url: requrl,
+        data: queryparams,
+        type : "POST",
+        headers : { "Content-Type":"application/json",  "Accept":"application/json;charset=utf-8"},
+        crossDomain : true
+      })
+
+      request.success(function( search_result ) {
+        search_result = jQuery.parseJSON(search_result)
+        console.log(search_result);
+        add_results(person_id,search_result.result)
+        $("#fetch_"+person_id).prop('disabled', false);
+        });
+      request.error(function(jqXHR, textStatus, errorThrown) {
+        console.log(textStatus);
+        $("#fetch_"+person_id).prop('disabled', false);
+        $("#status_"+person_id).html("Troubles finding <b>"+name+"</b>'s Wiener")
+      });
+
+    }
+  </script>
+  <!--jQuery scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+
+  <div id="dick_header" >
+    <input id="name_1" name="name_1" type="text" />
+    <button id="fetch_1" onclick="fetch_citations_for(1);">Fetch Citations</button>
+    <select id="citations_1" >
+      <option value="100">Avg. Citations in 10 Years CS</option>
+    </select>
+    <span id="status_1"></span>
+
+    <br/>
+    <input id="name_2" name="name_2" type="text" />
+    <button id="fetch_2" onclick="fetch_citations_for(2);">Fetch Citations</button>
+    <select id="citations_2" >
+      <option value="100">Avg. Citations in 10 Years CS</option>
+    </select>
+    <br/>
+    <button id="reset" onclick="reset_dicks()">Reset !!!</button>
+    <button id="compare" onclick="compare_dicks()">Compare !!!</button>
+    <span id="status_2"></span>
+  </div>
+
+  <img id="dick1" src="assets/images/pic.png" width="100" height="0"  />
+  <img id="up_1" src="assets/images/up.png" width="20" height="2%" />
+  <img id="dick2" src="assets/images/pic.png" width="100" height="0"   />
+  <img id="up_2" src="assets/images/up.png" width="20" height="2%" />
+
+  <!--script type="text/javascript" src="assets/js/spin.min.js"></script>
+  <script>
+    var opts = {
+      lines: 13, // The number of lines to draw
+      length: 5, // The length of each line
+      width: 4, // The line thickness
+      radius: 3, // The radius of the inner circle
+      corners: 1, // Corner roundness (0..1)
+      rotate: 0, // The rotation offset
+      direction: 1, // 1: clockwise, -1: counterclockwise
+      color: '#000', // #rgb or #rrggbb or array of colors
+      speed: 1, // Rounds per second
+      trail: 60, // Afterglow percentage
+      shadow: false, // Whether to render a shadow
+      hwaccel: false, // Whether to use hardware acceleration
+      className: 'spinner', // The CSS class to assign to the spinner
+      zIndex: 2e9, // The z-index (defaults to 2000000000)
+    };
+    var target = document.getElementById('loading_spinner_1');
+    var spinner = new Spinner(opts).spin(target);
+  </script-->
+</body>
+</html>
