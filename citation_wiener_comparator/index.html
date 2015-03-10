@@ -22,7 +22,6 @@
     function animate(cit_number1, cit_number2)
     {
       //TODO progress bar for fetching citation
-      //Dick comparison
       //TODO add Name, add percentage (coount)
       //TODO dick icon
       //TODO styling
@@ -34,11 +33,11 @@
       dick_aspect_ratio=772/1288
 
       var max = (parseInt(cit_number1)>parseInt(cit_number2)) ? cit_number1 : cit_number2 ;
-      dick1_height = max_dick_height*(cit_number1/max) //percentage of display height
+      dick1_height = Math.max(max_dick_height*(cit_number1/max), 15) //percentage of display height
       dick1_width = dick1_height * dick_aspect_ratio
       dick1_left = $( window ).width() * 0.25 - dick1_width/2
 
-      dick2_height = max_dick_height*(cit_number2/max) //percentage of display height
+      dick2_height = Math.max(max_dick_height*(cit_number2/max),15) //percentage of display height
       dick2_width = dick2_height * dick_aspect_ratio
       dick2_left = $( window ).width() * 0.75 - dick2_width/2
 
