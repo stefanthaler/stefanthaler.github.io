@@ -3,27 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>Citation Wiener Comparison</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <style type="text/css">
 
-    body {
+    html, body {
       height: 100%;
-      margin: 0;
-      overflow-y: scroll;
+      margin: 15px;
+      overflow-y: hidden;
       overflow-x: hidden;
     }
 
-    #dick1,#dick2 {
-      position: absolute;
-      bottom: 3%;
-    }
-    #up_1,#up_2 {
-      position: absolute;
-      bottom: 0;
-    }
   </style>
 </head>
 
 <body>
+  <!--Twitter Bootsrap-->
   <script>
     function animate(cit_number1, cit_number2)
     {
@@ -34,6 +28,7 @@
       //TODO styling
       //TODO find out acutal average citations
       //TODO attribute creator of clipart
+      //TODO add null check
 
       max_dick_height = $( window ).height() - $('#dick_header').height() - 100
       dick_aspect_ratio=772/1288
@@ -125,30 +120,48 @@
   <!--jQuery scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
 
-  <div id="dick_header" >
-    <input id="name_1" name="name_1" type="text" />
-    <button id="fetch_1" onclick="fetch_citations_for(1);">Fetch Citations</button>
-    <select id="citations_1" >
-      <option value="100">Avg. Citations in 10 Years CS</option>
-    </select>
-    <span id="status_1"></span>
+  <div id="dick_header" class="row" >
+    <div class="col-md-6">
+      <input id="name_1" name="name_1" type="text" class="form-control" placeholder="1st Researcher Name"  />
+      <button id="fetch_1" onclick="fetch_citations_for(1);" class="btn btn-lg btn-info">Fetch Citations</button>
+      <select id="citations_1" class="form-control" >
+        <option value="100">Avg. Citations in 10 Years CS</option>
+      </select>
+      <span id="status_1"></span> <!--TODO replace with bootstrap notification -->
+    </div>
 
-    <br/>
-    <input id="name_2" name="name_2" type="text" />
-    <button id="fetch_2" onclick="fetch_citations_for(2);">Fetch Citations</button>
-    <select id="citations_2" >
-      <option value="100">Avg. Citations in 10 Years CS</option>
-    </select>
-    <br/>
-    <button id="reset" onclick="reset_dicks()">Reset !!!</button>
-    <button id="compare" onclick="compare_dicks()">Compare !!!</button>
-    <span id="status_2"></span>
+    <div class="col-md-6">
+      <input id="name_2" name="name_2" type="text"  class="form-control" placeholder="2nd Researcher Name"/>
+      <button id="fetch_2" onclick="fetch_citations_for(2);" class="btn btn-lg btn-info">Fetch Citations</button>
+      <select id="citations_2" class="form-control" >
+        <option value="100">Avg. Citations in 10 Years CS</option>
+      </select>
+      <span id="status_2"></span>
+    </div>
   </div>
 
-  <img id="dick1" src="assets/images/pic.png" width="100" height="0"  />
-  <img id="up_1" src="assets/images/up.png" width="20" height="2%" />
-  <img id="dick2" src="assets/images/pic.png" width="100" height="0"   />
-  <img id="up_2" src="assets/images/up.png" width="20" height="2%" />
+  <div class="row">
+    <div class="col-md-6 text-right">
+      <button id="reset" onclick="reset_dicks()" class="btn btn-lg btn-success">Reset !!!</button>
+    </div>
+    <div class="col-md-6 text-left">
+      <button id="compare" onclick="compare_dicks()" class="btn btn-lg btn-danger">Compare !!!</button>
+    </div>
+  </div>
+
+
+  <div class="row text-center" style="height:100%;;vertical-align:bottom; ">
+    <div class="col-md-6" style="height:100%;" >
+      <img id="dick1" src="assets/images/pic.png"  class="center-block" width="100" height="0"  />
+      <img id="up_1" src="assets/images/up.png" width="20" height="2%" />
+    </div>
+    <div class="col-md-6" style="height:100%;vertical-align:bottom;">
+      <img id="dick2" src="assets/images/pic.png" class="center-block" width="100" height="0"   />
+      <img id="up_2" src="assets/images/up.png" width="20" height="2%" />
+    </div>
+  </div>
+
+
 
   <!--script type="text/javascript" src="assets/js/spin.min.js"></script>
   <script>
