@@ -47,7 +47,7 @@
         cit_number2 =  parseInt(cit_number1) / 8 * 10
       }
 
-      max_dick_height = $( window ).height() - $('#dick_header').height() - 100
+      max_dick_height = $( window ).height() - $('#dick_header').height() - $('#page_title').height() - 100 - $('#emptyrow').height()
       dick_aspect_ratio=772/1288
 
       var max = (parseInt(cit_number1)>parseInt(cit_number2)) ? cit_number1 : cit_number2 ;
@@ -133,16 +133,66 @@
       });
 
     }
+
+
+
   </script>
   <!--jQuery scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+  <script src="assets/js/bootstrap.min.js"> </script>
+  <!-- on page loaded -->
+  <script type="text/javascript">
+    $(window).load(function(){
+        $('#leave').on('click', function (e)
+        {
+          window.location="https://www.google.com/search?site=&tbm=isch&source=hp&biw=1914&bih=936&q=cute%20baby%20kitten&oq=cute%20baby%20kitten"
+        })
+
+        $('#disclaimer').modal('show');
+
+
+    });
+  </script>
 
   <div id="page_title" class="row">
     <h1 class="col-md-12" style=" text-align: center;">
       Calculate YOUR Johnson Index
     </h1>
   </div>
-  <div  class="row"> <div class="col-md-12"> &nbsp;</div> </div>
+
+    <!-- disclaimer -->
+  <div class="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title" id="myModalLabel">Disclaimer</h2>
+        </div>
+        <h4 class="modal-body">
+          This page is made to provoke thoughts about the value of metrics based on number of papers / citations.
+          Click <a href="why.html">here</a> to read why this is important IMHO.
+          <br/>
+          <div>
+            In short:
+            <ul>
+              <li>Citations are not a key performance indicator, but a tool to link knowledge.</li>
+              <li>The purpose of this page is to make you <b>laugh</b> and then <b>think</b>.</li>
+              <li>Please <b>don't</b> use this page to <b>insult anybody</b>.</li>
+              <li>If this page makes you feel <b>bad</b>, you SHOULD start thinking about what I've written <a href="why.html">here</a>.</li>
+              <li>I cannot guarantee that the underlying data is correct. Also, it should not matter.</li>
+            </ul>
+          </div>
+        </h4>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Bring IT On</button>
+          <button type="button" id="leave" class="btn btn-success">Get Me Out Of Here</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Model -->
+  <div  class="row" id="emptyrow"> <div class="col-md-12"> &nbsp;</div> </div>
   <div id="dick_header" class="row" >
     <div class="col-md-6">
       <input id="name_1" name="name_1" type="text" class="form-control" placeholder="1st Researcher Name"  />
@@ -167,7 +217,7 @@
 
   <div class="row">
     <div class="col-md-6 text-right">
-      <button id="reset" onclick="reset_dicks()" class="btn btn-lg btn-success">Reset !!!</button>
+      <button id="reset" onclick="reset_dicks()" class="btn btn-lg btn-default">Reset !!!</button>
     </div>
     <div class="col-md-6 text-left">
       <button id="compare" onclick="compare_dicks()" class="btn btn-lg btn-danger">Compare !!!</button>
@@ -185,8 +235,6 @@
       <img id="up_2" src="assets/images/up.png" width="20" height="2%" />
     </div>
   </div>
-
-
 
   <!--script type="text/javascript" src="assets/js/spin.min.js"></script>
   <script>
