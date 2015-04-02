@@ -109,13 +109,15 @@
         return;
       }
       //var requrl = "http://api.yutao.us/api/search/pub?query=stefan+thaler&size=20&sort=relevance"
-      var requrl = "http://api.yutao.us/api/search/people"
+      //http://api2.aminer.org/api/search/pub?query=skoric&size=20&sort=relevance
+      //var requrl = "http://api.yutao.us/api/search/people"
+      var requrl = "http://api2.aminer.org/api/search/pub?query=skoric&size=20&sort=relevance"
       var queryparams =  '{"query":"'+name+'","size":20,"sort":"relevance","filters":{}}'
       $("#fetch_"+person_id).prop('disabled', true);
       var request = $.ajax({
         url: requrl,
         data: queryparams,
-        type : "POST",
+        type : "GET",
         headers : { "Content-Type":"application/json",  "Accept":"application/json;charset=utf-8"},
         crossDomain : true
       })
