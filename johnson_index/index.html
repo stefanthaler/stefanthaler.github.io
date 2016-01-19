@@ -91,7 +91,7 @@
       for (var pos in results) // add all received results to the drop down
       {
         result = results[pos]
-        select.append('<option value="'+result['n_citation']+'">'+result['name']+'</option>')
+        select.append('<option value="'+result['indices']['num_citation']+'">'+result['name']+'</option>')
       }
       $(select_id+' :nth-child(3)').prop('selected', true); //automatically select 3rd element
 
