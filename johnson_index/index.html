@@ -97,8 +97,8 @@
 
     }
 
-    function fetch_citations_for(person_id)
-    {
+    function fetch_citations_for(person_id
+ )[d]   {
       console.log(person_id)
       $("#status_"+person_id).text("")
       name =  $("#name_"+person_id).val()
@@ -108,10 +108,12 @@
          $("#status_"+person_id).html("Please specify a name")
         return;
       }
+      //https://aminer.org/search/t=b&q=sokratis%20vavilis
       //var requrl = "http://api.yutao.us/api/search/pub?query=stefan+thaler&size=20&sort=relevance"
       //http://api2.aminer.org/api/search/pub?query=skoric&size=20&sort=relevance
       //var requrl = "http://api.yutao.us/api/search/people"
-      var requrl = "http://api.aminer.org/api/search/people?query="+name+"&size=20&sort=relevance"
+      //var requrl = "http://aminer.org/search/t=b&q="+name+"&size=20&sort=relevance"
+      var requrl = "https://api.aminer.org/api/search/person?query="+name+"&size=20&sort=relevance"
       //var requrl = "http://api2.aminer.org/api/search/pub?query=skoric&size=20&sort=relevance"
       var queryparams =  '{"query":"'+name+'","size":20,"sort":"relevance","filters":{}}'
       $("#fetch_"+person_id).prop('disabled', true);
