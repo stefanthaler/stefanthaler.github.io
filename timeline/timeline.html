@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- TODO download this to assets -->
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+  </head>
+  <body>
+    <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+    <!-- 3 -->
+    <script type="text/javascript">
+        function now_date() {
+          var n = new Date();
+          d = {"year":n.getFullYear (), "month":n.getMonth(), "day":n.getDay(),"hour":n.getHours(),"minute":n.getMinutes(),"second":n.getSeconds()}
+          console.log(d)
+          return d
+        }
+
+        /*
+        {//sample era
+          "start_date":{"year":2014, "month":05, "day":1,"hour":15,"minute":33,"second":22},
+          "end_date":{"year":2014, "month":2, "day":12,"hour":15,"minute":33,"second":22},
+          "text":{"headline":"an era", "text":"this is not an era"}
+        }
+        { // sample text
+          "start_date":{"year":2016, "month":1, "day":12,"hour":15,"minute":33,"second":22},
+          "end_date":{"year":2016, "month":2, "day":12,"hour":15,"minute":33,"second":22},
+          "text":{"headline":"test", "text":"sample text"}
+        },{//sample media
+        "start_date":{"year":2016, "month":1, "day":12,"hour":15,"minute":33,"second":22},
+        "end_date":{"year":2014, "month":2, "day":12,"hour":15,"minute":33,"second":22},
+        "media":{"url":"http://cdn.instructables.com/FOK/21GG/HCV8X5VX/FOK21GGHCV8X5VX.MEDIUM.jpg", "caption":"banana", "credit":"me", "thumbnail":"http://cdn.instructables.com/FOK/21GG/HCV8X5VX/FOK21GGHCV8X5VX.MEDIUM.jpg" }
+        }
+        */
+
+        var timeline_json = {
+          "title":{ // sample text
+            "start_date":{"year":1985, "month":12, "day":02,"hour":06,"minute":20,"second":00},
+            "end_date":now_date(),
+            "text":{"headline":"title", "text":"This is my life"}
+          },// end title
+          "scale":"human",//or cosmological
+          "events":[
+            {//Angergasse
+              "start_date":{"year":1991, "month":09, "day":1},
+              "end_date":{"year":1995, "month":07, "day":1},
+              "text":{"headline":"Volkschule Angergasse"}
+            },
+            {//Adolf Pichler Platz
+              "start_date":{"year":1995, "month":09, "day":1},
+              "end_date":{"year":2003, "month":6, "day":30},
+              "text":{"headline":"BRG Adolf Pichler Platz"}
+            },
+            {//Military
+              "start_date":{"year":2003, "month":09, "day":1},
+              "end_date":{"year":2004, "month":06, "day":25},
+              "text":{"headline":"Austrian Military"}
+            },
+            //{//Metropol Kino
+            //  "start_date":{"year":2004, "month":07, "day":1},
+            //  "end_date":{"year":2004, "month":10, "day":31},
+            //  "text":{"headline":"Metropol"}
+            //},
+            {//DVT
+              "start_date":{"year":2004, "month":11, "day":1},
+              "end_date":{"year":2005, "month":06, "day":30},
+              "text":{"headline":"DVT Datenverarbeitung Tirol"}
+            },
+            {//holzweg
+              "start_date":{"year":2006, "month":10, "day":1},
+              "end_date":{"year":2008, "month":11, "day":31},
+              "text":{"headline":"holzweg e-commerce solutions"}
+            },
+            {//STI
+              "start_date":{"year":2009, "month":5, "day":1},
+              "end_date":{"year":2012, "month":6, "day":30},
+              "text":{"headline":"STI Semantic Technology Institute"},
+
+            },
+            {//mohemian
+              "start_date":{"year":2012, "month":09, "day":1},
+              "end_date":{"year":2014, "month":04, "day":30},
+              "text":{"headline":"mohemian", "text":"I played"},
+              "media":{"credit":"mohemian", "thumbnail":"http://mohemian.com/assets/icons/favicon.ico"}
+            },
+            {//PHD
+              "start_date":{"year":2014, "month":05, "day":1,"hour":15,"minute":33,"second":22},
+              "end_date":now_date(),
+              "text":{"headline":"Technical University of Eindhoven", "text": "I do play around at TU/e"},
+              "media":{"credit":"TU/e", "thumbnail":"https://www.tue.nl/favicon.ico" }
+            }
+          ],//end events,
+          "eras":[
+
+          ] // end eras
+        }
+
+
+        window.timeline = new TL.Timeline('timeline-embed', timeline_json, {
+          "start_at_end":true
+        });
+    </script>
+  </body>
+</html>
