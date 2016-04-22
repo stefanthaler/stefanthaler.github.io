@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Johnson Index Calculator</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.ico" />
+  <style type="text/css">
+
+    html, body {
+      height: 100%;
+      margin: 15px;
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!--Twitter Bootsrap-->
+  <script>
+    function animate(cit_number1, cit_number2)
+    {
+      //TODO progress bar for fetching citation
+      //TODO add Name, add percentage (coount)
+      //TODO dick icon
+      //TODO styling
+      //TODO find out acutal average citations
+      //TODO attribute creator of clipart
+      //TODO add null check
+      //TODO add bouke hack
+      //TODO add border/label around inputs
+      //TODO add disclaimer
+
+      if ((cit_number1=="bouke") && (cit_number2=="bouke"))// bouke-hack
+      {
+        cit_number1 = 1
+        cit_number2 = 1
+      }
+      else if (cit_number1=="bouke")
+      {
+        cit_number1 = parseInt(cit_number2) / 4 * 10
+      }
+      else if (cit_number2=="bouke")
+      {
+        cit_number2 =  parseInt(cit_number1) / 4 * 10
+      }
+
+      max_dick_height = $( window ).height() - $('#dick_header').height() - $('#page_title').height() - 100 - $('#emptyrow').height()
+      dick_aspect_ratio=772/1288
+
+      var max = (parseInt(cit_number1)>parseInt(cit_number2)) ? cit_number1 : cit_number2 ;
+      dick1_height = Math.max(max_dick_height*(cit_number1/max), 15) //percentage of display height
+      dick1_width = dick1_height * dick_aspect_ratio
+      dick1_left = $( window ).width() * 0.25 - dick1_width/2
+
+      dick2_height = Math.max(max_dick_height*(cit_number2/max),15) //percentage of display height
+      dick2_width = dick2_height * dick_aspect_ratio
+      dick2_left = $( window ).width() * 0.75 - dick2_width/2
+
+      $("#dick1").css({left: dick1_left});
+      $("#up_1").css({left: $( window ).width() * 0.25 - 10});
+      $("#dick1").animate({height: dick1_height+"px", width:dick1_width+'px' });
+
+      $("#dick2").css({left: dick2_left});
+      $("#dick2").animate({height: dick2_height+"px", width:dick2_width+'px' });
+      $("#up_2").css({left: $( window ).width() * 0.75 - 10});
+    }
+    function reset_dicks()
+    {
+      $("#dick1").animate({height: "0px", width: '0px' }, 70);
+      $("#dick2").animate({height: "0px", width: '0px' }, 70);
+    }
+
+    function compare_dicks()
+    {
+      reset_dicks()
+      cit_number1 = $("#citations_1").val()
+      cit_number2 = $("#citations_2").val()
+      console.log(cit_number1)
+      console.log(cit_number2)
+      animate(cit_number1, cit_number2)
+    }
+
+    function add_results(person_id, results)
+    {
+      select_id = "#citations_"+person_id
+      select = $(select_id)
+      select.find('option:gt(1)').remove(); //clear all options except first two
+      for (var pos in results) // add all received results to the drop down
+      {
+        result = results[pos]
+        select.append('<option value="'+result['indices']['num_citation']+'">'+result['name']+'</option>')
+      }
+      $(select_id+' :nth-child(3)').prop('selected', true); //automatically select 3rd element
+
+    }
+
+    function fetch_citations_for(person_id){
+      console.log(person_id)
+      $("#status_"+person_id).text("")
+      name =  $("#name_"+person_id).val()
+      if (!name)
+      {
+        console.log("No name specified")
+         $("#status_"+person_id).html("Please specify a name")
+        return;
+      }
+      var requrl = "https://api.aminer.org/api/search/person?query="+name+"&size=20&sort=relevance"
+      var queryparams =  '{"query":"'+name+'","size":20,"sort":"relevance","filters":{}}'
+      $("#fetch_"+person_id).prop('disabled', true);
+      var request = $.ajax({
+        url: requrl,
+        data: queryparams,
+        type : "GET",
+        headers : { "Content-Type":"application/json",  "Accept":"application/json;charset=utf-8"},
+        crossDomain : true
+      })
+
+      request.success(function( search_result ) {
+        search_result = jQuery.parseJSON(search_result)
+        console.log(search_result);
+        add_results(person_id,search_result.result)
+        $("#fetch_"+person_id).prop('disabled', false);
+        });
+      request.error(function(jqXHR, textStatus, errorThrown) {
+        console.log(textStatus);
+        $("#fetch_"+person_id).prop('disabled', false);
+        $("#status_"+person_id).html("Troubles finding <b>"+name+"</b>'s Wiener")
+      });
+
+    }
+
+
+
+  </script>
+  <!--jQuery scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+  <script src="assets/js/bootstrap.min.js"> </script>
+  <!-- on page loaded -->
+  <script type="text/javascript">
+    $(window).load(function(){
+        $('#leave').on('click', function (e)
+        {
+          window.location="https://www.google.com/search?site=&tbm=isch&source=hp&biw=1914&bih=936&q=cute%20baby%20kitten&oq=cute%20baby%20kitten"
+        })
+
+        $('#disclaimer').modal('show');
+
+
+    });
+  </script>
+
+  <div id="page_title" class="row">
+    <h1 class="col-md-12" style=" text-align: center;">
+      Calculate YOUR Johnson Index
+    </h1>
+  </div>
+
+    <!-- disclaimer -->
+  <div class="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title" id="myModalLabel">Disclaimer</h2>
+        </div>
+        <h4 class="modal-body">
+          This page is made to provoke discussion about the value of metrics based on number of papers / citations.
+          <br/>
+          <div>
+            In short:
+            <ul>
+              <li>The purpose of this page is to make you <b>laugh</b> and <b>think</b>.</li>
+              <li>Please <b>don't</b> use this page to <b>insult anybody</b>.</li>
+              <li>I cannot guarantee that the underlying data is correct. Also, it should not matter.</li>
+            </ul>
+          </div>
+        </h4>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Bring IT On</button>
+          <button type="button" id="leave" class="btn btn-success">Get Me Out Of Here</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Model -->
+  <div  class="row" id="emptyrow"> <div class="col-md-12"> &nbsp;</div> </div>
+  <div id="dick_header" class="row" >
+    <div class="col-md-6">
+      <input id="name_1" name="name_1" type="text" class="form-control" placeholder="1st Researcher Name"  />
+      <button id="fetch_1" onclick="fetch_citations_for(1);" class="btn btn-lg btn-info">Fetch Citations</button>
+      <select id="citations_1" class="form-control" >
+        <option value="100">Avg. Citations in 10 Years CS</option>
+        <option value="bouke">Bouke Cloostermans</option>
+      </select>
+      <span id="status_1"></span> <!--TODO replace with bootstrap notification -->
+    </div>
+
+    <div class="col-md-6">
+      <input id="name_2" name="name_2" type="text"  class="form-control" placeholder="2nd Researcher Name"/>
+      <button id="fetch_2" onclick="fetch_citations_for(2);" class="btn btn-lg btn-info">Fetch Citations</button>
+      <select id="citations_2" class="form-control" >
+        <option value="100">Avg. Citations in 10 Years CS</option>
+        <option value="bouke">Bouke Cloostermans</option>
+      </select>
+      <span id="status_2"></span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 text-right">
+      <button id="reset" onclick="reset_dicks()" class="btn btn-lg btn-default">Reset !!!</button>
+    </div>
+    <div class="col-md-6 text-left">
+      <button id="compare" onclick="compare_dicks()" class="btn btn-lg btn-danger">Compare !!!</button>
+    </div>
+  </div>
+
+
+  <div class="row text-center" style="height:100%;;vertical-align:bottom; ">
+    <div class="col-md-6" style="height:100%;" >
+      <img id="dick1" src="assets/images/pic.png"  class="center-block" width="100" height="0"  />
+      <img id="up_1" src="assets/images/up.png" width="20" height="2%" />
+    </div>
+    <div class="col-md-6" style="height:100%;vertical-align:bottom;">
+      <img id="dick2" src="assets/images/pic.png" class="center-block" width="100" height="0"   />
+      <img id="up_2" src="assets/images/up.png" width="20" height="2%" />
+    </div>
+  </div>
+
+  <!--script type="text/javascript" src="assets/js/spin.min.js"></script>
+  <script>
+    var opts = {
+      lines: 13, // The number of lines to draw
+      length: 5, // The length of each line
+      width: 4, // The line thickness
+      radius: 3, // The radius of the inner circle
+      corners: 1, // Corner roundness (0..1)
+      rotate: 0, // The rotation offset
+      direction: 1, // 1: clockwise, -1: counterclockwise
+      color: '#000', // #rgb or #rrggbb or array of colors
+      speed: 1, // Rounds per second
+      trail: 60, // Afterglow percentage
+      shadow: false, // Whether to render a shadow
+      hwaccel: false, // Whether to use hardware acceleration
+      className: 'spinner', // The CSS class to assign to the spinner
+      zIndex: 2e9, // The z-index (defaults to 2000000000)
+    };
+    var target = document.getElementById('loading_spinner_1');
+    var spinner = new Spinner(opts).spin(target);
+  </script-->
+</body>
+</html>
