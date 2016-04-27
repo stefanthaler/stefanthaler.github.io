@@ -3,8 +3,8 @@
 	<channel>
 		<title>Stefan Thaler</title>
 		<description>Blog, website, outlet...</description>
-		<link>https://stefanthaler.github.io/personal-jekyll-theme</link>
-		<atom:link href="https://stefanthaler.github.io/personal-jekyll-theme/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://stefanthaler.github.io</link>
+		<atom:link href="https://stefanthaler.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>first post test</title>
@@ -14,8 +14,8 @@
 </description>
 				
 				<pubDate>Sat, 27 Jun 2015 00:00:00 +0200</pubDate>
-				<link>https://stefanthaler.github.io/personal-jekyll-theme/test/2015/06/27/welcome.html</link>
-				<guid isPermaLink="true">https://stefanthaler.github.io/personal-jekyll-theme/test/2015/06/27/welcome.html</guid>
+				<link>https://stefanthaler.github.io/test/2015/06/27/welcome.html</link>
+				<guid isPermaLink="true">https://stefanthaler.github.io/test/2015/06/27/welcome.html</guid>
 			</item>
 		
 	</channel>
