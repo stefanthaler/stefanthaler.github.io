@@ -56,11 +56,9 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Don't take life too seriously, you will never get out of it alive."
-  - text: "I love deadlines. I love the whooshing noise they make as they go by."
-  - text: "If Python is executable pseudocode, then perl is executable line noise."
-  - text: "Programmers are tools for converting caffeine and pizza into code."
+  - text: "Welcome to this piece of the internet."
 
-me-img: "/img/jetpacktocat.png"
+#me-img: "/img/jetpacktocat.png"
 
 ##############################
 # Color the browser elements #
