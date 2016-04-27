@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Don't take life too seriously, you will never get out of it alive."
   - text: "Welcome to my blog."
-  
+
 
 #me-img: "/img/jetpacktocat.png"
 
@@ -141,7 +141,7 @@ email: "bruthaler [at] protonmail [dot] ch"
 # TODO add research gate, g+ etc.
 social:
   - title: "github"
-    url: "https://stefanthaler.github.io"
+    url: "https://github.com/stefanthaler/"
   - title: "linkedin"
     url: "https://nl.linkedin.com/in/stefan-thaler-39016396"
   - title: "rss"
