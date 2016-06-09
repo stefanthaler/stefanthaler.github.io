@@ -119,6 +119,7 @@
       })
 
       request.success(function( search_result ) {
+        console.log("got a result " +search_result)
         search_result = jQuery.parseJSON(search_result)
         console.log(search_result);
         add_results(person_id,search_result.result)
