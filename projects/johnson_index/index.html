@@ -121,9 +121,9 @@
       request.success(function( search_result ) {
         $("#fetch_"+person_id).prop('disabled', false);
         console.log(search_result)
-        search_result = jQuery.parseJSON(search_result)
+        //search_result = jQuery.parseJSON(search_result)
         console.log(search_result);
-        add_results(person_id,search_result.result)
+          add_results(person_id,search_result.result)
         });
       request.error(function(jqXHR, textStatus, errorThrown) {
         console.log(textStatus);
