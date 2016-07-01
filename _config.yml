@@ -57,6 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Don't take life too seriously, you will never get out of it alive."
   - text: "Welcome to yet another corner of the Internet."
+  - text: "Growing old is mandatory. Growing up not."
 
 
 #me-img: "/img/jetpacktocat.png"
