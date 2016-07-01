@@ -56,7 +56,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Don't take life too seriously, you will never get out of it alive."
-  - text: "Welcome to my blog."
+  - text: "Welcome to my corner of the Internet."
 
 
 #me-img: "/img/jetpacktocat.png"
