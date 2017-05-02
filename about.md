@@ -3,6 +3,7 @@ title: About
 permalink: /about/
 ---
 
+<!--
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
 ## Features
@@ -97,13 +98,13 @@ disqus:
 url: "https://<your-name>.github.io"
 ```
 
-- **NOTE** When if running locally, change url to 
+- **NOTE** When if running locally, change url to
 
 ```yml
 url: "https://localhost:4000"
 ```
 
-- Change this to your branch name where _gh-pages_ resides. 
+- Change this to your branch name where _gh-pages_ resides.
 - **NOTE** apply only if you used __Method 2__ for installation.
 
 ```yml
@@ -114,7 +115,7 @@ baseurl: "/<branch-name>"
 
 ```bash
 # Create new post
-$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
+$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
 
 # Create new draft post
 $ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
@@ -129,3 +130,4 @@ $ rake preview
 ## License
 
 This theme is released under MIT License.
+-->
