@@ -9,7 +9,7 @@ author:
 #  facebook:         ""
 #  youtubeUser:      ""
 #  youtubeChannel:   ""
-  twitter:          ""
+#  twitter:          ""
   github:           stefanthaler
   stackoverflow:    bruthaler
 #  quora:            ""
@@ -62,6 +62,8 @@ nav:
     url:            "/archive"
   - name:           "Tags"
     url:            "/tags"
+  - name:           "Resources"
+    url:            "/resources"
 #  - name:           "CV"
 #    url:            "/academic-cv"
 
@@ -86,7 +88,7 @@ defaults:
       layout:       "post"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-admin
