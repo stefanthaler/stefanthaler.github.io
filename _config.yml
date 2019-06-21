@@ -1,6 +1,8 @@
 # # # # # # # # # # # # #
 #   K i k o - p l u s   #
 # # # # # # # # # # # # #
+#
+#
 
 # Basic
 name:               "Random Thoughts"
@@ -20,11 +22,11 @@ author:
 #  reddit:           ""
 #  medium:           ""
 #  tumblr:           ""
-  email:            s.m.thaler@tue.nl
+  email:            stefan [at] stetha [dot] net
   name:             Stefan Thaler
 
 copyright:
-  year:             2017
+  year:             2019
   name:             Stefan Thaler
 
 # Google-analytics
@@ -88,9 +90,14 @@ defaults:
       layout:       "post"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-plugins:
+plugins_dir:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-admin
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-admin
 
 exclude:            [vendor]
