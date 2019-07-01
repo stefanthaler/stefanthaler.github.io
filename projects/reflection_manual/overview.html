@@ -1,0 +1,476 @@
+<!doctype html>
+<html>
+<head>
+  <title>Life Refelection Topics Overview</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.12.2/d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.js"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+   <meta charset="utf-8">
+  <style type="text/css">
+    #mynetwork {
+      width: 100%;
+      height: 800px;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet([
+    {id: 1, label: 'Values', title: "Values, beliefs, principles and mindsets that you are committed to",
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf085', size: 50, color: 'red'},
+    },
+    {id: 2, label: 'Shelter',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf19c', size: 50, color: 'red'}
+    },
+
+    {id: 3, label: 'Relationships',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0c0', size: 50, color: 'green'}
+    },
+    {id: 4, label: 'Children',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf1ae', size: 50, color: 'green'}
+    },
+    {id: 5, label: 'Finances',
+        shape:"icon", icon: { face: 'FontAwesome', code: '\uf0d6', size: 50, color: 'green'}
+    },
+
+    {id: 6, label: 'Sexuality',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf224', size: 50, color: 'green'}
+    },
+    {id: 7, label: 'Identity',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf2c3', size: 50, color: 'green'}
+    },
+    {id: 8, label: 'Meaning',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0eb', size: 50, color: 'green'}
+    },
+
+    {id: 9, label: 'Spirituality',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf128', size: 50, color: 'green'}
+    },
+    {id: 10, label: 'Emotions',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf004', size: 50, color: 'green'}
+    },
+    {id: 11, label: 'Interests',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf11b', size: 50, color: 'green'}
+
+    },
+    {id: 12, label: 'Character',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0eb', size: 50, color: 'green'}
+    },
+    {id: 13, label: 'Impact',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf140', size: 50, color: 'green'}
+    },
+    {id: 14, label: 'Power',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0e3', size: 50, color: 'green'}
+    },
+    {id: 15, label: 'Behavior',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf12e', size: 50, color: 'green'}
+    },
+    {id: 16, label: 'Goals',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf091', size: 50, color: 'green'}
+    },
+    {id: 17, label: 'Problems', title: "Problems you care about and could contribute",
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0e7', size: 50, color: 'yellow'}
+    },
+    {id: 18, label: 'Skills',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0ad', size: 50, color: 'green'}
+    },
+    /*{
+      id: 19, label: 'Principles', title: "Beliefs and Principles you are commited to",
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf24e', size: 50, color: 'orange'}
+    },*/
+    {id: 20, label: 'Stuff',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf290', size: 50, color: 'green'}
+    },
+    /*
+    {id: 21, label: 'Mindsets',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf27b', size: 50, color: 'green'}
+    },*/
+    /*{id: 22, label: 'Food',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0f5', size: 50, color: 'green'}
+    },
+    {id: 23, label: 'Drinks',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0fc', size: 50, color: 'green'}
+    },*/
+    {id: 24, label: 'Environment', title: "Your phyiscal environment",
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf1bb', size: 50, color: 'green'}
+    },
+    {id: 25, label: 'Society', title: "The society you live in",
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0ac', size: 50, color: 'green'}
+    },
+    {id: 26, label: 'Health',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0f9', size: 50, color: 'green'}
+    },
+    /*{id: 27, label: 'Sleeping',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf236', size: 50, color: 'green'}
+    },
+    {id: 28, label: 'Breathing',
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0f1', size: 50, color: 'green'}
+    },*/
+  ]);
+
+  // create an array with edges
+  var edges = new vis.DataSet([
+    //values
+    {from: 1, to: 2},
+    {from: 1, to: 3},
+    {from: 1, to: 4},
+    {from: 1, to: 5},
+    {from: 1, to: 6},
+    {from: 1, to: 7},
+    {from: 1, to: 8},
+    {from: 1, to: 9},
+    {from: 1, to: 10},
+    {from: 1, to: 11},
+    {from: 1, to: 12},
+    {from: 1, to: 13},
+    {from: 1, to: 14},
+    {from: 1, to: 15},
+    {from: 1, to: 16},
+    {from: 1, to: 17},
+    {from: 1, to: 18},
+//    {from: 1, to: 19},
+    {from: 1, to: 20},
+//    {from: 1, to: 21},
+//    {from: 1, to: 22},
+//    {from: 1, to: 23},
+    {from: 1, to: 24},
+    {from: 1, to: 25},
+
+    // shelter
+    {from: 2, to: 3},
+    {from: 2, to: 4},
+    {from: 2, to: 5},
+    {from: 2, to: 10},
+    {from: 2, to: 11},
+    {from: 2, to: 16},
+    {from: 2, to: 17},
+    {from: 2, to: 20},
+
+    //relationships
+    {from: 3, to: 4},
+    {from: 3, to: 5},
+    {from: 3, to: 6},
+    {from: 3, to: 7},
+    {from: 3, to: 10},
+    {from: 3, to: 11},
+    {from: 3, to: 12},
+    {from: 3, to: 13},
+    {from: 3, to: 14},
+    {from: 3, to: 15},
+    {from: 3, to: 25},
+
+    // children
+    {from: 4, to: 5}, // finances
+    {from: 4, to: 7}, // identity
+    {from: 4, to: 8}, // meaning
+    {from: 4, to: 10}, // emotions
+    {from: 4, to: 11}, // interests
+    {from: 4, to: 12}, // character
+    {from: 4, to: 13}, // impact
+    {from: 4, to: 16}, // goals
+    {from: 4, to: 20}, // stuff
+
+    // finances
+    {from: 5, to: 7}, // Identity
+    {from: 5, to: 8}, // Meaning
+    {from: 5, to: 9}, // spirituality
+    {from: 5, to: 10}, // emotions
+    {from: 5, to: 11}, // interests
+    {from: 5, to: 12}, // character
+    {from: 5, to: 13}, // impact
+    {from: 5, to: 14}, // power
+    {from: 5, to: 15}, // behavior
+    {from: 5, to: 16}, // goals
+    {from: 5, to: 17}, // problems
+    {from: 5, to: 18}, // skills
+//    {from: 5, to: 19}, // principles
+    {from: 5, to: 20}, // stuff
+//    {from: 5, to: 21}, // mindsets
+  //  {from: 5, to: 22}, // foods
+  //  {from: 5, to: 23}, // drinks
+    {from: 5, to: 24}, // environment
+    {from: 5, to: 25}, // society
+  //  {from: 5, to: 26}, // health
+  //  {from: 5, to: 27}, // sleeping
+
+    // sexuality
+    {from: 6, to: 7}, // identity
+    {from: 6, to: 8}, // meaning
+    {from: 6, to: 9}, // spirituality
+    {from: 6, to: 10}, // emotions
+    {from: 6, to: 11}, // interests
+    {from: 6, to: 12}, // character
+    {from: 6, to: 15}, // behavior
+//    {from: 6, to: 21}, // mindsets
+    {from: 6, to: 22}, // foods
+    {from: 6, to: 23}, // drinks
+    {from: 6, to: 25}, // society
+//    {from: 6, to: 26}, // health
+
+    // identity
+    {from: 7, to: 8}, // meaning
+    {from: 7, to: 9}, // spirituality
+    {from: 7, to: 10}, // emotions
+    {from: 7, to: 11}, // interests
+    {from: 7, to: 13}, // impact
+    {from: 7, to: 14}, // power
+    {from: 7, to: 16}, // goals
+    {from: 7, to: 17}, // problems
+    {from: 7, to: 25}, // society
+
+     // meaning
+    {from: 8, to: 9}, // spirituality
+    {from: 8, to: 10}, // emotions
+    {from: 8, to: 11}, // interests
+    {from: 8, to: 13}, // impact
+    {from: 8, to: 14}, // power
+    {from: 8, to: 16}, // goals
+    {from: 8, to: 17}, // problems
+    {from: 8, to: 18}, // skills
+  //  {from: 8, to: 19}, // principles
+    {from: 8, to: 20}, // stuff
+  //  {from: 8, to: 21}, // mindsets
+    {from: 8, to: 25}, // society
+
+    // spirituality
+    {from: 9, to: 10}, // emotions
+    {from: 9, to: 11}, // interests
+    {from: 9, to: 12}, // character
+    {from: 9, to: 15}, // behavior
+    {from: 9, to: 16}, // goals
+    {from: 9, to: 17}, // problems
+    //{from: 9, to: 19}, // principles
+    {from: 9, to: 20}, // stuff
+    //{from: 9, to: 21}, // mindsets
+  //  {from: 9, to: 22}, // foods
+//    {from: 9, to: 23}, // drinks
+    {from: 9, to: 25}, // society
+    {from: 9, to: 26}, // health
+  //  {from: 9, to: 28}, // breathing
+
+    // emotions
+    {from: 10, to: 11}, // interests
+    {from: 10, to: 12}, // character
+    {from: 10, to: 15}, // behavior
+    //{from: 10, to: 19}, // principles
+    {from: 10, to: 20}, // stuff
+    //{from: 10, to: 21}, // mindsets
+    //{from: 10, to: 22}, // foods
+    //{from: 10, to: 23}, // drinks
+    {from: 10, to: 24}, // environment
+    {from: 10, to: 25}, // society
+    {from: 10, to: 26}, // health
+    //{from: 10, to: 27}, // sleeping
+    //{from: 10, to: 28}, // breathing
+
+    // interests
+    {from: 11, to: 12}, // character
+    {from: 11, to: 13}, // impact
+    {from: 11, to: 14}, // power
+    {from: 11, to: 15}, // behavior
+    {from: 11, to: 16}, // goals
+    {from: 11, to: 17}, // problems
+    {from: 11, to: 18}, // skills
+    //{from: 11, to: 19}, // principles
+    {from: 11, to: 20}, // stuff
+    {from: 11, to: 24}, // environment
+    {from: 11, to: 25}, // society
+    {from: 11, to: 26}, // health
+
+    // character
+    {from: 12, to: 13}, // impact
+    {from: 12, to: 14}, // power
+    {from: 12, to: 15}, // behavior
+    {from: 12, to: 17}, // problems
+    //{from: 12, to: 19}, // principles
+    {from: 12, to: 20}, // stuff
+    //{from: 12, to: 21}, // mindsets
+    //{from: 12, to: 22}, // foods
+    //{from: 12, to: 23}, // drinks
+    {from: 12, to: 24}, // environment
+    {from: 12, to: 25}, // society
+    {from: 12, to: 26}, // health
+
+    // impact
+    {from: 13, to: 14}, // power
+    {from: 13, to: 15}, // behavior
+    {from: 13, to: 16}, // goals
+    {from: 13, to: 17}, // problems
+    {from: 13, to: 18}, // skills
+    //{from: 13, to: 19}, // principles
+    {from: 13, to: 20}, // stuff
+    //{from: 13, to: 21}, // mindsets
+    //{from: 13, to: 22}, // foods
+    //{from: 13, to: 23}, // drinks
+    {from: 13, to: 24}, // environment
+    {from: 13, to: 25}, // society
+
+    // power
+    {from: 14, to: 15}, // behavior
+    {from: 14, to: 16}, // goals
+    {from: 14, to: 17}, // problems
+    {from: 14, to: 18}, // skills
+    //{from: 14, to: 19}, // principles
+    {from: 14, to: 20}, // stuff
+    //{from: 14, to: 21}, // mindsets
+    {from: 14, to: 24}, // environment
+    {from: 14, to: 25}, // society
+    {from: 14, to: 26}, // health
+
+    // behavior
+    {from: 15, to: 16}, // goals
+    {from: 15, to: 18}, // skills
+    //{from: 15, to: 19}, // principles
+    //{from: 15, to: 21}, // mindsets
+  //  {from: 15, to: 22}, // foods
+  //  {from: 15, to: 23}, // drinks
+    {from: 15, to: 24}, // environment
+    {from: 15, to: 25}, // society
+  //  {from: 15, to: 26}, // health
+
+    // goals
+    {from: 16, to: 17}, // problems
+    {from: 16, to: 18}, // skills
+    //{from: 16, to: 19}, // principles
+    {from: 16, to: 20}, // stuff
+    //{from: 16, to: 21}, // mindsets
+//    {from: 16, to: 22}, // foods
+//    {from: 16, to: 23}, // drinks
+    {from: 16, to: 24}, // environment
+    {from: 16, to: 25}, // society
+    {from: 16, to: 27}, // sleeping
+    {from: 16, to: 26}, // health
+//    {from: 16, to: 28}, // breathing
+
+    // problems
+    {from: 17, to: 18}, // skills
+    //{from: 17, to: 19}, // principles
+    {from: 17, to: 20}, // stuff
+    //{from: 17, to: 21}, // mindsets
+    {from: 17, to: 24}, // environment
+    {from: 17, to: 25}, // society
+    {from: 17, to: 26}, // health
+
+
+    // skills
+    {from: 18, to: 24}, // environment
+    {from: 18, to: 26}, // health
+
+    // principles & beliefs
+    //{from: 19, to: 20}, // stuff
+    //{from: 19, to: 21}, // mindsets
+  //  {from: 19, to: 22}, // foods
+  //  {from: 19, to: 23}, // drinks
+    ///{from: 19, to: 24}, // environment
+    //{from: 19, to: 25}, // society
+
+    // stuff
+    {from: 20, to: 21}, // mindsets
+    {from: 20, to: 24}, // environment
+    {from: 20, to: 25}, // society
+
+    // mindsets
+
+    // foods
+    /*{from: 22, to: 24}, // environment
+    {from: 22, to: 25}, // society
+    {from: 22, to: 26}, // health
+    {from: 22, to: 27}, // sleeping
+    {from: 22, to: 28}, // breathing*/
+
+    // drinks
+    /*{from: 23, to: 24}, // environment
+    {from: 23, to: 25}, // society
+    {from: 23, to: 26}, // health
+    {from: 23, to: 27}, // sleeping*/
+
+    // environment
+    {from: 24, to: 25}, // society
+    {from: 24, to: 26}, // health
+    //{from: 24, to: 27}, // sleeping
+    //{from: 24, to: 28}, // breathing
+
+    // society
+
+    // health
+    //{from: 26, to: 27}, // sleeping
+    //{from: 26, to: 28}, // breathing
+
+    //sleepng
+
+
+
+
+
+
+
+
+
+
+  ]);
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+      physics: {
+      "barnesHut": {
+        "centralGravity": 0,
+        "springLength": 300,
+        "avoidOverlap": 1
+        },
+        "minVelocity": 0.75
+      },
+      nodes: {
+        color: {
+         border: '#666',
+         background: "#FFF",
+        },
+      },
+        edges: {
+            width: 0.5,
+            "smooth": {
+              "type": "continuous",
+              "forceDirection": "none",
+              "roundness": 0
+            },
+            color:{color:'#AAA', highlight:'black'}
+            //shadow:true
+        },
+        groups: {
+            /*star: {
+                color: {background:'red',border:'#666'},
+                size: 50,
+                shape: 'star'
+            },
+            icons: {
+                shape: 'icon',
+                icon: {
+                    face: 'FontAwesome',
+                    code: '\uf2e0',
+                    size: 50,
+                    color: 'orange'
+                }
+            },
+            source: {
+                color: {background:'blue',border:'blue'}
+            }*/
+        }
+    };
+  var network = new vis.Network(container, data, options);
+</script>
+
+
+</body>
+</html>
