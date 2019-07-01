@@ -47,7 +47,7 @@
     {id: 7, label: 'Identity',
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf2c3', size: 50, color: 'green'}
     },
-    {id: 8, label: 'Meaning',
+    {id: 8, label: 'Meaning',title: "Your definition of success and how to measure it",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf0eb', size: 50, color: 'green'}
     },
 
@@ -70,23 +70,23 @@
     {id: 14, label: 'Power',
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf0e3', size: 50, color: 'green'}
     },
-    {id: 15, label: 'Behavior',
+    {id: 15, label: 'Behavior',title: "Explicit or implicit habitual patterns",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf12e', size: 50, color: 'green'}
     },
-    {id: 16, label: 'Goals',
+    {id: 16, label: 'Goals', title: "What goals do you have in life",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf091', size: 50, color: 'green'}
     },
     {id: 17, label: 'Problems', title: "Problems you care about and could contribute",
-      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0e7', size: 50, color: 'yellow'}
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0e7', size: 50, color: 'orange'}
     },
-    {id: 18, label: 'Skills',
+    {id: 18, label: 'Skills', title: "What are you able to do and what would you like to be capable of doing",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf0ad', size: 50, color: 'green'}
     },
     /*{
       id: 19, label: 'Principles', title: "Beliefs and Principles you are commited to",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf24e', size: 50, color: 'orange'}
     },*/
-    {id: 20, label: 'Stuff',
+    {id: 20, label: 'Stuff', title: "What you own and what you want",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf290', size: 50, color: 'green'}
     },
     /*
@@ -105,15 +105,16 @@
     {id: 25, label: 'Society', title: "The society you live in",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf0ac', size: 50, color: 'green'}
     },
-    {id: 26, label: 'Health',
+    {id: 26, label: 'Health', title: "Physical and mental health, food, drinks, eating, sleeping and breathing",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf0f9', size: 50, color: 'green'}
     },
     /*{id: 27, label: 'Sleeping',
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf236', size: 50, color: 'green'}
     },
-    {id: 28, label: 'Breathing',
-      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0f1', size: 50, color: 'green'}
-    },*/
+    */
+    {id: 28, label: 'Change', title: "How will I change? How will society change?",
+      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0f1', size: 50, color: 'lightblue'}
+    },
   ]);
 
   // create an array with edges
@@ -143,6 +144,7 @@
 //    {from: 1, to: 23},
     {from: 1, to: 24},
     {from: 1, to: 25},
+    {from: 1, to: 28}, // change
 
     // shelter
     {from: 2, to: 3},
@@ -153,6 +155,7 @@
     {from: 2, to: 16},
     {from: 2, to: 17},
     {from: 2, to: 20},
+    {from: 2, to: 28}, // change
 
     //relationships
     {from: 3, to: 4},
@@ -166,6 +169,7 @@
     {from: 3, to: 14},
     {from: 3, to: 15},
     {from: 3, to: 25},
+    {from: 3, to: 28}, // change
 
     // children
     {from: 4, to: 5}, // finances
@@ -177,6 +181,7 @@
     {from: 4, to: 13}, // impact
     {from: 4, to: 16}, // goals
     {from: 4, to: 20}, // stuff
+    {from: 4, to: 28}, // change
 
     // finances
     {from: 5, to: 7}, // Identity
@@ -200,6 +205,7 @@
     {from: 5, to: 25}, // society
   //  {from: 5, to: 26}, // health
   //  {from: 5, to: 27}, // sleeping
+  {from: 5, to: 28}, // change
 
     // sexuality
     {from: 6, to: 7}, // identity
@@ -214,6 +220,7 @@
     {from: 6, to: 23}, // drinks
     {from: 6, to: 25}, // society
 //    {from: 6, to: 26}, // health
+    {from: 6, to: 28}, // change
 
     // identity
     {from: 7, to: 8}, // meaning
@@ -225,6 +232,7 @@
     {from: 7, to: 16}, // goals
     {from: 7, to: 17}, // problems
     {from: 7, to: 25}, // society
+    {from: 7, to: 28}, // change
 
      // meaning
     {from: 8, to: 9}, // spirituality
@@ -239,6 +247,7 @@
     {from: 8, to: 20}, // stuff
   //  {from: 8, to: 21}, // mindsets
     {from: 8, to: 25}, // society
+    {from: 8, to: 28}, // change
 
     // spirituality
     {from: 9, to: 10}, // emotions
@@ -255,6 +264,7 @@
     {from: 9, to: 25}, // society
     {from: 9, to: 26}, // health
   //  {from: 9, to: 28}, // breathing
+    {from: 9, to: 28}, // change
 
     // emotions
     {from: 10, to: 11}, // interests
@@ -270,6 +280,7 @@
     {from: 10, to: 26}, // health
     //{from: 10, to: 27}, // sleeping
     //{from: 10, to: 28}, // breathing
+    {from: 10, to: 28}, // change
 
     // interests
     {from: 11, to: 12}, // character
@@ -284,6 +295,7 @@
     {from: 11, to: 24}, // environment
     {from: 11, to: 25}, // society
     {from: 11, to: 26}, // health
+    {from: 11, to: 28}, // change
 
     // character
     {from: 12, to: 13}, // impact
@@ -298,6 +310,7 @@
     {from: 12, to: 24}, // environment
     {from: 12, to: 25}, // society
     {from: 12, to: 26}, // health
+    {from: 12, to: 28}, // change
 
     // impact
     {from: 13, to: 14}, // power
@@ -312,6 +325,7 @@
     //{from: 13, to: 23}, // drinks
     {from: 13, to: 24}, // environment
     {from: 13, to: 25}, // society
+    {from: 13, to: 28}, // change
 
     // power
     {from: 14, to: 15}, // behavior
@@ -324,6 +338,7 @@
     {from: 14, to: 24}, // environment
     {from: 14, to: 25}, // society
     {from: 14, to: 26}, // health
+    {from: 14, to: 28}, // change
 
     // behavior
     {from: 15, to: 16}, // goals
@@ -335,6 +350,7 @@
     {from: 15, to: 24}, // environment
     {from: 15, to: 25}, // society
   //  {from: 15, to: 26}, // health
+    {from: 15, to: 28}, // change
 
     // goals
     {from: 16, to: 17}, // problems
@@ -349,6 +365,7 @@
     {from: 16, to: 27}, // sleeping
     {from: 16, to: 26}, // health
 //    {from: 16, to: 28}, // breathing
+    {from: 16, to: 28}, // change
 
     // problems
     {from: 17, to: 18}, // skills
@@ -358,11 +375,13 @@
     {from: 17, to: 24}, // environment
     {from: 17, to: 25}, // society
     {from: 17, to: 26}, // health
+    {from: 17, to: 28}, // change
 
 
     // skills
     {from: 18, to: 24}, // environment
     {from: 18, to: 26}, // health
+    {from: 18, to: 28}, // change
 
     // principles & beliefs
     //{from: 19, to: 20}, // stuff
@@ -376,6 +395,7 @@
     {from: 20, to: 21}, // mindsets
     {from: 20, to: 24}, // environment
     {from: 20, to: 25}, // society
+    {from: 20, to: 28}, // change
 
     // mindsets
 
@@ -397,6 +417,7 @@
     {from: 24, to: 26}, // health
     //{from: 24, to: 27}, // sleeping
     //{from: 24, to: 28}, // breathing
+    {from: 24, to: 28}, // change
 
     // society
 
