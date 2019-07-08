@@ -24,8 +24,11 @@
 <script type="text/javascript">
   // create an array with nodes
   var nodes = new vis.DataSet([
-    {id: 1, label: 'Values', title: "Values, beliefs, principles and mindsets that you are committed to",
+    /*{id: 1, label: 'Values', title: "Values, beliefs, principles and mindsets that you are committed to",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf085', size: 50, color: 'red'},
+    },*/
+    {id: 1, label: 'Character', title: "Values, Identity, Habits",
+    shape:"icon", icon: { face: 'FontAwesome', code: '\uf0eb', size: 50, color: 'red'}
     },
     {id: 2, label: 'Shelter',
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf19c', size: 50, color: 'red'}
@@ -44,9 +47,9 @@
     {id: 6, label: 'Sexuality',
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf224', size: 50, color: 'green'}
     },
-    {id: 7, label: 'Identity',
+    /*{id: 7, label: 'Identity',
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf2c3', size: 50, color: 'green'}
-    },
+    },*/
     {id: 8, label: 'Meaning',title: "Your definition of success and how to measure it",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf0eb', size: 50, color: 'green'}
     },
@@ -61,18 +64,15 @@
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf11b', size: 50, color: 'green'}
 
     },
-    {id: 12, label: 'Character',
-      shape:"icon", icon: { face: 'FontAwesome', code: '\uf0eb', size: 50, color: 'green'}
-    },
     {id: 13, label: 'Impact',
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf140', size: 50, color: 'green'}
     },
     {id: 14, label: 'Power',
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf0e3', size: 50, color: 'green'}
     },
-    {id: 15, label: 'Behavior',title: "Explicit or implicit habitual patterns",
+    /*{id: 15, label: 'Behavior',title: "Explicit or implicit habitual patterns",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf12e', size: 50, color: 'green'}
-    },
+    },*/
     {id: 16, label: 'Goals', title: "What goals do you have in life",
       shape:"icon", icon: { face: 'FontAwesome', code: '\uf091', size: 50, color: 'green'}
     },
@@ -125,15 +125,15 @@
     {from: 1, to: 4},
     {from: 1, to: 5},
     {from: 1, to: 6},
-    {from: 1, to: 7},
+    //{from: 1, to: 7},
     {from: 1, to: 8},
     {from: 1, to: 9},
     {from: 1, to: 10},
     {from: 1, to: 11},
-    {from: 1, to: 12},
+    //{from: 1, to: 12},
     {from: 1, to: 13},
     {from: 1, to: 14},
-    {from: 1, to: 15},
+    //{from: 1, to: 15},
     {from: 1, to: 16},
     {from: 1, to: 17},
     {from: 1, to: 18},
@@ -223,7 +223,7 @@
     {from: 6, to: 28}, // change
 
     // identity
-    {from: 7, to: 8}, // meaning
+    /*{from: 7, to: 8}, // meaning
     {from: 7, to: 9}, // spirituality
     {from: 7, to: 10}, // emotions
     {from: 7, to: 11}, // interests
@@ -232,7 +232,7 @@
     {from: 7, to: 16}, // goals
     {from: 7, to: 17}, // problems
     {from: 7, to: 25}, // society
-    {from: 7, to: 28}, // change
+    {from: 7, to: 28}, // change*/
 
      // meaning
     {from: 8, to: 9}, // spirituality
@@ -297,7 +297,8 @@
     {from: 11, to: 26}, // health
     {from: 11, to: 28}, // change
 
-    // character
+    // values
+    /*
     {from: 12, to: 13}, // impact
     {from: 12, to: 14}, // power
     {from: 12, to: 15}, // behavior
@@ -310,7 +311,7 @@
     {from: 12, to: 24}, // environment
     {from: 12, to: 25}, // society
     {from: 12, to: 26}, // health
-    {from: 12, to: 28}, // change
+    {from: 12, to: 28}, // change*/
 
     // impact
     {from: 13, to: 14}, // power
@@ -341,6 +342,7 @@
     {from: 14, to: 28}, // change
 
     // behavior
+    /*
     {from: 15, to: 16}, // goals
     {from: 15, to: 18}, // skills
     //{from: 15, to: 19}, // principles
@@ -350,7 +352,7 @@
     {from: 15, to: 24}, // environment
     {from: 15, to: 25}, // society
     {from: 15, to: 26}, // health
-    {from: 15, to: 28}, // change
+    {from: 15, to: 28}, // change*/
 
     // goals
     {from: 16, to: 17}, // problems
