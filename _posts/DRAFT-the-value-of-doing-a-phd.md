@@ -19,12 +19,23 @@ So, let's go down the rabbit hole...
 ### Machine Learning Knowledge
 With regard to the current market, one of the most valuable assets that I have acquired during my PhD is solid knowledge about machine learning. At the moment, there is a huge buzz about machine learning and data science, not only in Academia but also in Industry. Slam machine learning on top of anything, and your grant money or seed funding will flow. Large parts of my research were dedicated to apply machine learning to information security problems, and by doing so I got some knowledge about machine learning, how to use it, its capabilities, its limitations, and a bit how to design some the machine learning algorithms.
 
-
-
 <!-- ability to read and assess scientific publications -->
-<!-- learn to detect bullshit -->
+### The ability to read scientific articles
+These days, in most parts of the world the ability to read is often taken for granted. Nobody thinks that reading is a particularly difficult skill. However, being able to read and comprehend scientific publications is a whole different animal than being able to read a book for pleasure or a newspaper article.
+
+Scientists often pack a lot of information in an article, and they do so in a very compact way. Additionally, they typically use the technical jargon of their respective field to describe the ideas and experiments of the article.  
+
+Reading and understanding such material is a challenging task, as the reader needs to unpack the dense information that was packed into the article.
 
 <!-- the ability to synthesize large amounts of often conflicting information -->
+  
+
+### The ability to assess scientific publications
+Reading and understanding the main ideas of scientific articles is an important skill, but it does not help you unless you are capable of assessing the knowledge on its scientific quality. That is, you need to be able to assess threats against the validity of the presented ideas, find logical flaws, wrong or incomplete assumptions and so on. I learned that ability, but of course only within my own confined field. For example, I would have a hard time assessing a paper proposing a new cryptographic algorithm, or a paper on a new cancer drug.
+
+
+<!-- learn to detect bullshit -->
+With that ability to assess scientific papers, also my ability to detect bullshit increased quite a bit. This skill is not only confined to my own field of expertise, but can also be translated to other domains. You get a sense of when someone is deliberately trying to be vague, or is overusing technical jargon, or is using meaningless phrases. During my PhD I developed a good sense when someone was bullshitting, and what kind of questions to ask to cut through the mess.
 
 <!-- Mental Resilience -->
 During your PhD you are put through all kinds of stress, which helps you to train your mental resilience. One of these stresses is that you are working on a topic that you cannot really get help from anyone, because no one or not many have worked on a problem like that. As a consequence, you often try to solve problems in ways that don't work, which can be extremely frustrating. Often, you fruitlessly try to achieve something for months in row without every getting it to work. Not being able to ask anyone (or only a few)
