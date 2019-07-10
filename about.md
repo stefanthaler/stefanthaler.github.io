@@ -3,9 +3,9 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Stefan Thaler, and this is my personal blog. I've recently obtained a PhD degree from the [Technical University of Eindhoven](https://www.tue.nl). Currently, I am taking some time off to reflect about life in general, in particular my life and want to forge a plan for my remaining time on this planet. I will post every now and then, about different topics that cross my mind. 
+Hi, I'm Stefan Thaler, and this is my personal blog. I've recently obtained a PhD degree from the [Technical University of Eindhoven](https://www.tue.nl). Currently, I am taking some time off to reflect about life in general, in particular my life and want to forge a plan for my remaining time on this planet. I will post every now and then, about different topics that cross my mind.
 
-You can find a list of my publications on [Google Scholar](https://scholar.google.nl/citations?user=kwYKk5EAAAAJ&hl=en&oi=ao) and the source code of some of my projects on [GitHub](https://github.com/stefanthaler/) and you can find some links to interesting sites and materials on the [Resources](/resources/) page.
+You can find projects that I am working on and have worked on on my [Projects](/projects/) page. You can find a list of my publications on [Google Scholar](https://scholar.google.nl/citations?user=kwYKk5EAAAAJ&hl=en&oi=ao) and the source code of some of my projects on [GitHub](https://github.com/stefanthaler/) and you can find some links to interesting sites and materials on the [Resources](/resources/) page.
 
 <!--
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
