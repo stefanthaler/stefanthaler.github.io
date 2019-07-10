@@ -28,40 +28,51 @@ Scientists often pack a lot of information in an article, and they do so in a ve
 Reading and understanding such material is a challenging task, as the reader needs to unpack the dense information that was packed into the article.
 
 <!-- the ability to synthesize large amounts of often conflicting information -->
-  
+Also, after a while I acquired and trained the skill to synthesize large amount of often conflicting information. Reading is part of your job description. On a typical day I read at least one to two papers superficially to grasp their main idea and to get an overview on a topic. To obtain the big picture view on a subject, you need to be able to place the presented ideas somewhere on this mental picture, and you need to relate it to other ideas. More often than not, you ideas conflict each other because different researchers have different views on matters, and you need to be able to keep such conflicting ideas and perspectives in your head.  
 
 ### The ability to assess scientific publications
 Reading and understanding the main ideas of scientific articles is an important skill, but it does not help you unless you are capable of assessing the knowledge on its scientific quality. That is, you need to be able to assess threats against the validity of the presented ideas, find logical flaws, wrong or incomplete assumptions and so on. I learned that ability, but of course only within my own confined field. For example, I would have a hard time assessing a paper proposing a new cryptographic algorithm, or a paper on a new cancer drug.
-
 
 <!-- learn to detect bullshit -->
 With that ability to assess scientific papers, also my ability to detect bullshit increased quite a bit. This skill is not only confined to my own field of expertise, but can also be translated to other domains. You get a sense of when someone is deliberately trying to be vague, or is overusing technical jargon, or is using meaningless phrases. During my PhD I developed a good sense when someone was bullshitting, and what kind of questions to ask to cut through the mess.
 
 <!-- Mental Resilience -->
+### Mental Resilience
 During your PhD you are put through all kinds of stress, which helps you to train your mental resilience. One of these stresses is that you are working on a topic that you cannot really get help from anyone, because no one or not many have worked on a problem like that. As a consequence, you often try to solve problems in ways that don't work, which can be extremely frustrating. Often, you fruitlessly try to achieve something for months in row without every getting it to work. Not being able to ask anyone (or only a few)
-
 
 <!-- Confidence  -->
 ### Confidence boost
 Another benefit for me of doing my PhD was that it boosted my confidence in myself quite a bit. I remember very well how lost I felt when I started my PhD. Everything was confusing and I had a hard time reading, let alone understanding the scientific literature and scientific talks. I did not know where to start, which problem to pick or how to evaluate a problem. But, after a few years you get the hang of it, you start to bear the chaos and the unknown until you feel comfortable in the mess. And finally, finishing the PhD successfully gave me a huge boost in confidence. I now have the feeling that I can take on big, difficult tasks that take a long time to continue, because I know that if I hang in there and show up every day to work on that task that I have a fair chance to succeed.
 
-<!-- structure my thoughts -->
+
 <!-- asking questions -->
+
+
+<!-- structure my thoughts -->
+### Structuring my thoughts
+When I started my PhD, I hated writing. I used to love writing software, but I hated writing text. To me writing text was a chore, that needs to be done because it is part of what scientists do - write papers and reports. After about one and a half years in the PhD, I kind of liked the experimenting, but I was still pretty frustrated about the writing part. That changed dramatically after I watched Simon Jones' excellent talk "[How to write a great research paper.](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/)". In this talk, Simon proposes to do the writing of the paper before doing the actual experiments. It was only then that I understood that written text is  manifested thoughts. By writing, you are actually pulling out your thoughts in a compressed and orderly form out of your head and putting them down on some paper. Ideally, someone else is then capable of reading these manifested thoughts and understand a similar thing than you do.
+
+After I got this insight what writing actually is, I started to enjoying it, because after that I realized that by becoming a better writer I would also become a better thinker, because writing enables you to think properly about what you were actually thinking. You can formulate thoughts and ideas. You can structure them. You can put them in order. You can rephrase them. All that is a lot easier when you are writing. In your head (at least in mine), all ideas seem to make perfect sense if they are in my head. As soon as I start writing the ideas down I start seeing the shortcomings of these ideas, and I can start working on improving them.
+
+Since then, I've started to practice and improve writing actively, and as a consequence my thinking improved quite a bit. Thoughts now come in to my head in a much more orderly and clear fashion than they used to.
+
+<!-- communicate clearer -->
+### Communicate clearer
+
 
 <!-- systematic approach to problems -->
 <!-- the capability to remain in an unknown state on a matter -->
 <!-- the capability to work on a project without instant gratification -->
-<!-- communicate clearer -->
+
 <!-- practices critical thinking -->
 <!-- learned to think autonomously and independetly -->
 <!-- learned to be self-motivated -->
 
 <!-- Learning to overcome procrastination -->
-When working on a PhD, sooner or later one you have to work something that you are not super motivated to work on. That is when the procrastination starts. Procrastination can come in many forms, and my guess is that almost every PhD student faces it during at one time or the other. Procrastination can mean that you check social media or news instead of working on what you are supposed to work on. Or you work on some other project that you are not supposed to work on. Or you write some important tool that will help you in all your tasks and has to be coded right now. Or you take a course
+### Overcoming procrastination
+When working on a PhD, sooner or later one you have to work something that you are not super motivated to work on - at least that was so in my case. That is when the procrastination starts. Procrastination can come in many forms, and my guess is that almost every PhD student faces it during at one time or the other. Procrastination can mean that you check social media or news instead of working on what you are supposed to work on. Or you work on some other project that you are not supposed to work on. Or you write some important tool that will help you in all your tasks and has to be coded right now. Or you take a course that is interesting, but not strictly necessary, and so on.
 
-In an environment where you have to be self-motivated to achieve your goals, procrastination is one of your biggest enemies, which keeps you from doing your actual work. Ideally, after some time you learn to recognize which forms of procrastination you use to waste time, and then you learn to develop strategies on how to avoid excessive procrastination.
-
-
+In an environment where you have to be self-motivated to achieve your goals, procrastination is one of your biggest enemies, which keeps you from doing your actual work. I remember that I often procrastinated for weeks in a row, until the deadline was so close that I couldn't ignore it any longer. However, after a while I realized that procrastination not only is a huge waste of time, but it also drained enormous amounts of energy from my. Thus, after a while I managed to remove almost all distractions from my work, and learned strategies to overcome my procrastination habits.
 
 
 
