@@ -13,17 +13,22 @@ Some books that I strongly recommend to read.  For me, they have contained some 
 - [If you want to write](https://www.goodreads.com/book/show/248954.If_You_Want_to_Write) by Brenda Ueland. For me, this book was a major contributor to unlocking my joy in writing. Read this if you want to write.
 - [How to read a book](https://www.goodreads.com/book/show/567610.How_to_Read_a_Book) by Mortimer J. Adler. Reading seems to be such an obvious task that many people never consciously question what it actually means to read and how to become more proficient in it. This book taught me a whole lot about how to actually meaningfully read a book. In addition, by learning how to properly read it also increased my writing style.  
 - [Presentation Zen](https://www.goodreads.com/book/show/1908456.Presentation_Zen) by Garr Reynolds. The core message that got stuck in my head from this book was: "Impress by clarity". That, and countless other tips and considerations on how to improve presentations. I wish many presenters in Academia had read this book, because I've seen quite some chaotic slides over the course of my time in Academia.
-- [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear. The best book about habit formation that I've read so. If you want to understand your habits, break bad ones or implement some good ones in your life then you should definitely have a look at this book. 
+- [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits) by James Clear. The best book about habit formation that I've read so. If you want to understand your habits, break bad ones or implement some good ones in your life then you should definitely have a look at this book.
 
 ## Stuff I follow on the web
 - [XKCD](https://xkcd.com/)
 - [Explosm](http://explosm.net/)
 - [Bruce Schneier's blog](https://schneier.com). To me, Bruce Schneier's blog is an excellent source for staying up to date with high-level developments in IT-security and privacy. To me, Bruce Schneier is also a role model on how to maintain a blog.
 - [Graham Fuller's blog](http://grahamefuller.com/blog/). Graham Fuller is an ex-CIA Middle East expert, who critically comments on U.S. foreign policy every now and then.
+- [Our World in Data](https://ourworldindata.org/). An amazing website that provides curated data and interactive visualizations on many global topics. Helps in seeing the big picture on what's going on on this planet.
+- [Center for Humane Technology](https://humanetech.com/). Current day tech-companies design gadgets and websites in such a way that it is detrimental for us, the users. The Center for Human Technology is trying to find a way to combat these detrimental tendencies. 
+
 
 ## Inspiring Talks
 - [How to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) by Simon Peyton Jones. Probably the best talk on how to write a good paper. Caused a perspective shift in me, and helped me to appreciate the act of writing.
 - [Why you should define your fears instead of your goals](https://www.ted.com/talks/tim_ferriss_why_you_should_define_your_fears_instead_of_your_goals]) by Tim Ferris. The major lesson that I drew from this talk was that I should consider the cost of inaction in any decision making. That is, what will it cost if don't change the status quo or don't act on something. This was a game changer on how I make decisions in my life.
+
+
 <!--
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
