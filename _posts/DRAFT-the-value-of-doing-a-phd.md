@@ -46,6 +46,7 @@ Another benefit for me of doing my PhD was that it boosted my confidence in myse
 
 
 <!-- asking questions -->
+### Question asking
 
 
 <!-- structure my thoughts -->
@@ -58,27 +59,32 @@ Since then, I've started to practice and improve writing actively, and as a cons
 
 <!-- communicate clearer -->
 ### Communicate clearer
-
+One major part of a researcher's job is to communicate your ideas clearly. These ideas are oft very abstract in nature, and more often than not fairly complex. As a consequence, one of the skills that I have acquired over time is to communicate such ideas clearer. I've learned to guess at what level of knowledge my audience was, and which concepts and what context I need to explain such that my ideas can be understood. Also, being better in writing and being better at structuring my thoughts certainly helped the communicatin aspect too.
 
 <!-- systematic approach to problems -->
+### Systematic problem solving
+
+
 <!-- the capability to remain in an unknown state on a matter -->
+### Bear the unknown
+
 <!-- the capability to work on a project without instant gratification -->
+### Withstand instant gratification
 
 <!-- practices critical thinking -->
+### Boost critical thinking
+
 <!-- learned to think autonomously and independetly -->
+### Think autonomously and independently
+
 <!-- learned to be self-motivated -->
+### Learn to self-driven
 
 <!-- Learning to overcome procrastination -->
 ### Overcoming procrastination
 When working on a PhD, sooner or later one you have to work something that you are not super motivated to work on - at least that was so in my case. That is when the procrastination starts. Procrastination can come in many forms, and my guess is that almost every PhD student faces it during at one time or the other. Procrastination can mean that you check social media or news instead of working on what you are supposed to work on. Or you work on some other project that you are not supposed to work on. Or you write some important tool that will help you in all your tasks and has to be coded right now. Or you take a course that is interesting, but not strictly necessary, and so on.
 
 In an environment where you have to be self-motivated to achieve your goals, procrastination is one of your biggest enemies, which keeps you from doing your actual work. I remember that I often procrastinated for weeks in a row, until the deadline was so close that I couldn't ignore it any longer. However, after a while I realized that procrastination not only is a huge waste of time, but it also drained enormous amounts of energy from my. Thus, after a while I managed to remove almost all distractions from my work, and learned strategies to overcome my procrastination habits.
-
-
-
-
-
-
 
 <!-- What did I pay for it -->
 ## Pains of the PhD
