@@ -44,10 +44,11 @@ During your PhD you are put through all kinds of stress, which helps you to trai
 ### Confidence boost
 Another benefit for me of doing my PhD was that it boosted my confidence in myself quite a bit. I remember very well how lost I felt when I started my PhD. Everything was confusing and I had a hard time reading, let alone understanding the scientific literature and scientific talks. I did not know where to start, which problem to pick or how to evaluate a problem. But, after a few years you get the hang of it, you start to bear the chaos and the unknown until you feel comfortable in the mess. And finally, finishing the PhD successfully gave me a huge boost in confidence. I now have the feeling that I can take on big, difficult tasks that take a long time to continue, because I know that if I hang in there and show up every day to work on that task that I have a fair chance to succeed.
 
-
 <!-- asking questions -->
 ### Question asking
+One of the core activities in research is asking questions, and being in Academia for some time honed my skill to ask questions. At the beginning of your research career you learn that how you ask questions fundamentally shapes what you will find out. Furthermore, the quality of the questions will fundamentally determine the quality of the results - if you don't ask a good question, it is impossible to obtain a good answer.
 
+Throughout the course of my PhD I learned a lot about asking questions. I got to know different types of questions, learned to ask meaningful  questions, learned to phrase them clearly. I learned how to ask questions that would help you to recover from a research dead-end, and I learned which questions to ask and which ones to avoid. Good questions drive good thinking, so being able to formulate them is a huge plus.
 
 <!-- structure my thoughts -->
 ### Structuring my thoughts
@@ -59,7 +60,7 @@ Since then, I've started to practice and improve writing actively, and as a cons
 
 <!-- communicate clearer -->
 ### Communicate clearer
-One major part of a researcher's job is to communicate your ideas clearly. These ideas are oft very abstract in nature, and more often than not fairly complex. As a consequence, one of the skills that I have acquired over time is to communicate such ideas clearer. I've learned to guess at what level of knowledge my audience was, and which concepts and what context I need to explain such that my ideas can be understood. Also, being better in writing and being better at structuring my thoughts certainly helped the communicatin aspect too.
+One major part of a researcher's job is to communicate your ideas clearly. These ideas are oft very abstract in nature, and more often than not fairly complex. As a consequence, one of the skills that I have acquired over time is to communicate such ideas clearer. I've learned to guess at what level of knowledge my audience was, and which concepts and what context I need to explain such that my ideas can be understood. Also, being better in writing and being better at structuring my thoughts certainly helped the communication aspect too.
 
 <!-- systematic approach to problems -->
 ### Systematic problem solving
