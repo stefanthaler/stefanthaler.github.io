@@ -80,6 +80,11 @@ One major part of a researcher's job is to communicate your ideas clearly. These
 
 <!-- learned to be self-motivated -->
 ### Learn to self-driven
+Done right, a PhD can hugely influence your capability to work self-driven. The University as an institution is among the freest in our society, not only intellectually but also on the way you work. At least in  my case, I could basically work where I wanted, when I wanted, as long as I showed up for meetings, phone conferences and my teaching duties and as long as there was some progress. Do some sports in the morning and start working after lunch - no problem. Work from home - no problem. Work in a cafe - no problem. Work one day four hours, the other twelve - do it, if it suits you. Most of the times nobody checked on me, and typically nobody cared when, where and how I did my work. Doing research at TU/e was the freest working experience I ever had.
+
+However, that freedom comes at a price. If you don't have any external motivating factors, you need to be internally driven. Being internally motivated can be challenging if there are no checks on you. You want to watch a video on YouTube - you can do it. You want to play a game during work hours - nobody cares. But worst of all, in research, if you don't create task for yourselves, nobody else will. If you don't learn how to find a direction for your work and pursue that direction, nobody will do it for you. That is not something I was used to do. Up until my PhD, I more or less was told what to do. Not precisely every step, but roughly.
+
+The times I worked for small companies, my tasks where shaped by the wants of my bosses and their customers. At school, we had to learn certain material to pass some tests. My University education was more of the say, only with a slightly higher degree of freedom, such as which direction to pursue and which subjects to take and which don't. In my PhD, nobody did that for my. In the PhD, I had to find my own way. Sure, it was shaped by the way Academia works, by the expertise of my supervisors and  by talks with peers in the community, but if you have to find out something that has not existed before, you have to do it yourselves. Being self-driven is a good thing to learn. 
 
 <!-- Learning to overcome procrastination -->
 ### Overcoming procrastination
