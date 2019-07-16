@@ -62,9 +62,12 @@ Since then, I've started to practice and improve writing actively, and as a cons
 ### Communicate clearer
 One major part of a researcher's job is to communicate your ideas clearly. These ideas are oft very abstract in nature, and more often than not fairly complex. As a consequence, one of the skills that I have acquired over time is to communicate such ideas clearer. I've learned to guess at what level of knowledge my audience was, and which concepts and what context I need to explain such that my ideas can be understood. Also, being better in writing and being better at structuring my thoughts certainly helped the communication aspect too.
 
-<!-- systematic approach to problems -->
-### Systematic problem solving
+<!-- Complex problem solving -->
+### Problem solving skill
+Many intellectual problems that I've encountered during my PhD had one thing in common: they were complex. The conscious working memory in our brain is fairly limited and can only deal with a few concepts at a time. Consequently, dealing with complex problem is challenging because they don't fit in the working memory of your brain. That's why you typically learn how to cut these problems into smaller problems, attempt to solve each sub-problem individually and then piece it back together again to get a solution for the larger problem.
 
+<!-- systematic approach to problems -->
+In addition to that, the research environment typically forces you to solve such problems in a systematic way. That is, you learn to analyze and solve these sub problems in such a way that allows other people to reproduce your solutions, and help to shed light on different facets of the problem in a structured way. Often, there are also best-practice procedures for how to address problems in a scientific way. Such best-practices depend on the research domain and the prevalent dogmas of that domain.  
 
 <!-- the capability to remain in an unknown state on a matter -->
 ### Bear the unknown
@@ -84,7 +87,7 @@ Done right, a PhD can hugely influence your capability to work self-driven. The 
 
 However, that freedom comes at a price. If you don't have any external motivating factors, you need to be internally driven. Being internally motivated can be challenging if there are no checks on you. You want to watch a video on YouTube - you can do it. You want to play a game during work hours - nobody cares. But worst of all, in research, if you don't create task for yourselves, nobody else will. If you don't learn how to find a direction for your work and pursue that direction, nobody will do it for you. That is not something I was used to do. Up until my PhD, I more or less was told what to do. Not precisely every step, but roughly.
 
-The times I worked for small companies, my tasks where shaped by the wants of my bosses and their customers. At school, we had to learn certain material to pass some tests. My University education was more of the say, only with a slightly higher degree of freedom, such as which direction to pursue and which subjects to take and which don't. In my PhD, nobody did that for my. In the PhD, I had to find my own way. Sure, it was shaped by the way Academia works, by the expertise of my supervisors and  by talks with peers in the community, but if you have to find out something that has not existed before, you have to do it yourselves. Being self-driven is a good thing to learn. 
+The times I worked for small companies, my tasks where shaped by the wants of my bosses and their customers. At school, we had to learn certain material to pass some tests. My University education was more of the say, only with a slightly higher degree of freedom, such as which direction to pursue and which subjects to take and which don't. In my PhD, nobody did that for my. In the PhD, I had to find my own way. Sure, it was shaped by the way Academia works, by the expertise of my supervisors and  by talks with peers in the community, but if you have to find out something that has not existed before, you have to do it yourselves. Being self-driven is a good thing to learn.
 
 <!-- Learning to overcome procrastination -->
 ### Overcoming procrastination
