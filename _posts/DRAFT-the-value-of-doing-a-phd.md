@@ -71,6 +71,15 @@ In addition to that, the research environment typically forces you to solve such
 
 <!-- the capability to remain in an unknown state on a matter -->
 ### Bear the unknown
+Another thing that I've learned due to my time spent on research is to bear in an unknown state on a matter. Before I started doing research I loved clear-cut answers. Things were either the one or the other way, but they were definite. I thought I understood how the world works, and though I was aware that I knew little compared to human knowledge in total, I was confident about the things that I knew.
+
+When I moved to research, that changed. The first big insight that I've got was how little I truly understand. Like, even the things I thought I knew professionally very well, I realized that I truly understood quite few of them. Next, I realized what a mess human knowledge actually is. When you grow up and you learn a lot of things, you have the feeling that all this knowledge is definite and clear cut. When you move to research at the border of understanding and knowledge, you start realizing how messy things actually are. Some researches say the one thing, some researchers say the other thing. People fight over their ideas, there is a lot of debates, controversy and difference in understanding and argument.
+
+As soon as you move to doing your own experiments you start realizing that there are no true-cut answers to complex problems. Often, you have to admit to yourselves that you don't understand shit. Even if you manage to get some results to your experiments, you soon realize that there often more than one explanations, assumptions that need to be checked and so on.
+
+At first, this robbed my of my confidence about knowledge in general, and I felt fairly insecure about any statement that I made. Though, after a while you realize that this inherent unknown and uncertainty is a fairly normal condition, and you start to be able to stay in an unknown state on a matter but still be confident about the shards of knowledge that you have acquired so far on that matter. 
+
+
 
 <!-- the capability to work on a project without instant gratification -->
 ### Withstand instant gratification
