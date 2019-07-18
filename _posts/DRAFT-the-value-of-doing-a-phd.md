@@ -77,12 +77,17 @@ When I moved to research, that changed. The first big insight that I've got was 
 
 As soon as you move to doing your own experiments you start realizing that there are no true-cut answers to complex problems. Often, you have to admit to yourselves that you don't understand shit. Even if you manage to get some results to your experiments, you soon realize that there often more than one explanations, assumptions that need to be checked and so on.
 
-At first, this robbed my of my confidence about knowledge in general, and I felt fairly insecure about any statement that I made. Though, after a while you realize that this inherent unknown and uncertainty is a fairly normal condition, and you start to be able to stay in an unknown state on a matter but still be confident about the shards of knowledge that you have acquired so far on that matter. 
-
-
+At first, this robbed my of my confidence about knowledge in general, and I felt fairly insecure about any statement that I made. Though, after a while you realize that this inherent unknown and uncertainty is a fairly normal condition, and you start to be able to stay in an unknown state on a matter but still be confident about the shards of knowledge that you have acquired so far on that matter.
 
 <!-- the capability to work on a project without instant gratification -->
-### Withstand instant gratification
+### Work even with delayed gratification
+Another thing I've learned in my time in Academia is to work on a topic without getting any gratification for the work. I often spent month doing research without getting any form of gratification. I did not make any progress, or rather I found out many ways how not to do things, nobody said thank you to me, nobody praised me for my work. Not even my monthly paycheck felt like a form of gratification, since it was only very loosely coupled to what I was doing and not doing.
+
+This type of working felt very different than say working for a software startup like I did before. There I had I a set of chunked tasks in my sprint, and every time I completed one of the tasks I felt like I achieved something. And at the end of the day, I could point to something that I created that day. People would praise me if I did something right and thanked me if I put in some extra effort.
+
+In Academia, I learned to stick in there even I did get nothing for the work. Even the moments when you finally get a paper accepted does not feel really that great, because it is often a long time after you did the actual work and it feels totally decoupled.
+
+Working with delayed gratification may be important when you want to pursue long term goals. There, you often have to do some things that are not immediately rewarding but will pay off in the long term, and then it's good if you are capable of bearing the grudge.
 
 <!-- practices critical thinking -->
 ### Boost critical thinking
