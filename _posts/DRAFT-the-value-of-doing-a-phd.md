@@ -93,7 +93,15 @@ Working with delayed gratification may be important when you want to pursue long
 ### Boost critical thinking
 
 <!-- learned to think autonomously and independetly -->
-### Think autonomously and independently
+### Think independently
+One skill that got boosted quite a bit by my PhD experience was my skill to think by myself. At first glance, this skill does not appear to be much of an achievement - everybody believes that they do this all the time. Of course most of thinking human beings think for themselves. But there are different degrees of independence of thought. If one reads or hears something, and then believes it without having any second thought about it one has some thinking going on, but it is not really independent. In a similar fashion, if you are only capable of thinking within the terms of common myths and dogmas of your society, you may be able to form independent thought, but within the scope that is defined by those myths and dogmas. That is more independent than the previous case, but still a fairly limited form of thinking. Once you are capable of identifying and challenging prevailing dogmas of your society, you may start forming independent thought.
+
+Then, there is a difference between reasoning for yourselves and coming up with your own ideas, or merely compiling and reusing existing ideas that you have found somewhere in the literature or on the internet. Independence is how you came to your conclusions. If you sit in your room and write down your own thoughts on an issue, before looking up what other people were thinking on an issue.
+
+Independent thought does not mean that you think different than the majority of society. If you think for yourselves on an issue, and the conclusion happens to be the same as the mainstream conclusion, that still means that your process of thinking was an independent one.
+
+My PhD helped my to hone this skill, mainly for two reasons. First, I had to sit alone in my office for long periods of time where I could think on my own solutions for a problems. Being able to have the time to look for a solution greatly helps developing your skill of actually doing so. Secondly, in research some of the problems are simply not solved - there are no quick fixes or best practices to your problem on the Internet - you have to do it yourself. 
+
 
 <!-- learned to be self-motivated -->
 ### Learn to self-driven
