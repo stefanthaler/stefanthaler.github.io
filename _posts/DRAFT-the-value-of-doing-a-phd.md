@@ -90,7 +90,10 @@ In Academia, I learned to stick in there even I did get nothing for the work. Ev
 Working with delayed gratification may be important when you want to pursue long term goals. There, you often have to do some things that are not immediately rewarding but will pay off in the long term, and then it's good if you are capable of bearing the grudge.
 
 <!-- practices critical thinking -->
-### Boost critical thinking
+### Improve critical thinking
+While research, I spent a large share of my time asking questions. Good questions drive research, and finding them is often the hard part. Searching for good questions soon became a habit for me, and it was only a matter of time until I started to question my own thinking. Questioning your own thinking typically leads you to the discipline of critical thinking. Critical thinking is a type of rational thinking that follows high standards, and can be practiced.
+
+My PhD environment offered many situations where I could practice my critical thinking skills. My supervisors greatly helped my by challenging my thinking, my peers challenged my ideas, and I often reached the borders of my knowledge and understanding.
 
 <!-- learned to think autonomously and independetly -->
 ### Think independently
@@ -100,7 +103,7 @@ Then, there is a difference between reasoning for yourselves and coming up with 
 
 Independent thought does not mean that you think different than the majority of society. If you think for yourselves on an issue, and the conclusion happens to be the same as the mainstream conclusion, that still means that your process of thinking was an independent one.
 
-My PhD helped my to hone this skill, mainly for two reasons. First, I had to sit alone in my office for long periods of time where I could think on my own solutions for a problems. Being able to have the time to look for a solution greatly helps developing your skill of actually doing so. Secondly, in research some of the problems are simply not solved - there are no quick fixes or best practices to your problem on the Internet - you have to do it yourself. 
+My PhD helped my to hone this skill, mainly for two reasons. First, I had to sit alone in my office for long periods of time where I could think on my own solutions for a problems. Being able to have the time to look for a solution greatly helps developing your skill of actually doing so. Secondly, in research some of the problems are simply not solved - there are no quick fixes or best practices to your problem on the Internet - you have to do it yourself.
 
 
 <!-- learned to be self-motivated -->
