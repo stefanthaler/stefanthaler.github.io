@@ -107,7 +107,7 @@ My PhD helped my to hone this skill, mainly for two reasons. First, I had to sit
 
 
 <!-- learned to be self-motivated -->
-### Learn to self-driven
+### Work self-motivated
 Done right, a PhD can hugely influence your capability to work self-driven. The University as an institution is among the freest in our society, not only intellectually but also on the way you work. At least in  my case, I could basically work where I wanted, when I wanted, as long as I showed up for meetings, phone conferences and my teaching duties and as long as there was some progress. Do some sports in the morning and start working after lunch - no problem. Work from home - no problem. Work in a cafe - no problem. Work one day four hours, the other twelve - do it, if it suits you. Most of the times nobody checked on me, and typically nobody cared when, where and how I did my work. Doing research at TU/e was the freest working experience I ever had.
 
 However, that freedom comes at a price. If you don't have any external motivating factors, you need to be internally driven. Being internally motivated can be challenging if there are no checks on you. You want to watch a video on YouTube - you can do it. You want to play a game during work hours - nobody cares. But worst of all, in research, if you don't create task for yourselves, nobody else will. If you don't learn how to find a direction for your work and pursue that direction, nobody will do it for you. That is not something I was used to do. Up until my PhD, I more or less was told what to do. Not precisely every step, but roughly.
@@ -136,10 +136,13 @@ Working more and being mentally more agitated than usual left its traces. I don'
 ### Money
 Although you get a fairly decent salary for pursuing a PhD degree in the Netherlands, I earned less than I could have if I had worked as a software engineer. I guess I could have earned 80k-100k more in industry over the course of the five years, and that does not account for compounding effects later in life. So I strongly doubt that my PhD pays of financially.
 
-
 ## Could I have gotten the gains otherwise?
 
+One of the final questions to ask is if I could have gotten the gains of my PhD experience in another setting, perhaps a bit cheaper. This question is difficult to answer because I think most of these skills that I've gained are not unique to a PhD. Another thing that makes it difficult to answer is that no two PhD experiences seem to be a like - the only common denominator seems to be some form of mental suffering.
 
+I guess the best answer to that question is: yes, I could have gotten these skills somewhere else, but the environment in which I conducted my PhD as well the way my PhD program was structured greatly encouraged the development of these skills.
+
+I also strongly doubt that I could have gotten them cheaper - in less time, or with less effort. The suffering, the feeling of being alone, the uncertainty, the doubts, and all the other crazy things in combination with a lots of time are necessary to develop these skills. I used to jokingly say that the process of doing a PhD is similar to the fermentation process. That means, a somewhat motivated person gets locked up in a room with a few juicy questions, and then is left there to rot for four or more years, until something good comes out.   
 
 <!-- Was it worth it -->
 ## Conclusions
