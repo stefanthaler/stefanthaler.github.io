@@ -3,8 +3,7 @@ layout: post
 title: What is the value of doing a PhD?
 tags: [science, phd, reflection]
 ---
-
-A few months ago I completed my Ph.D. degree at the Technical University of Eindhoven. It took me almost five years to finish it, and one questions that I've heard many times from peers, friends and family is: "Was it worth it?". The answer to this question that comes straight from my guts is "Yes, and I'd do it again", but here I would like to explore the question a bit more in depth.
+A few months ago I completed my Ph.D. degree at the Technical University of Eindhoven. It took me almost five years to finish it, and one questions that I've heard many times is: "Was it worth it?". Answered from my guts I'd response - "Yes, and I'd do it again". But as I do not tend to solely rely on gut answers, here I would like to answer explore this answer in more depth.
 
 "Was it worth is" is a compacted question, and to properly answer it I need to unpack it to it's four core questions: "What did I gain?", "What did I have to pay for it?" and "Could I have learned them somewhere else better?".   
 
