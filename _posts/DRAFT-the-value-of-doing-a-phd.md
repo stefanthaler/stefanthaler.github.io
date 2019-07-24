@@ -5,9 +5,9 @@ tags: [science, phd, reflection]
 ---
 A few months ago I completed my Ph.D. degree at the Technical University of Eindhoven. It took me almost five years to finish it, and one questions that I've heard many times is: "Was it worth it?". Answered from my guts I'd response - "Yes, and I'd do it again". But as I do not tend to solely rely on gut answers, here I would like to answer explore this answer in more depth.
 
-"Was it worth is" is a compacted question, and to properly answer it I need to unpack it to it's four core questions: "What did I gain?", "What did I have to pay for it?" and "Could I have learned them somewhere else better?".   
+The purpose of this essay is to reflect on my personal experiences. I am not trying to convince anybody of anything, or trying to find arguments for or against pursuing a PhD or not. To do so would be a folly, as PhD experiences differ a lot. What you will get from the process of obtaining the degree depends greatly on your personality and your context.  
 
-The purpose of this essay is self reflection of my personal experience. I am not trying to convince anybody of anything, or trying to find arguments for or against pursuing a PhD.
+"Was it worth is?" is a vague question that cannot be directly answered. So to properly answer it I need to find more precise questions that reflect "the worth". I came up with three questions: "What did I gain from this experience?", "What did I have to pay for it?" and "Could I have gained  somewhere else better?". The answers to these three questions form the structure of the remaining essay.
 
 So, let's go down the rabbit hole...
 

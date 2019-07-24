@@ -1,0 +1,19 @@
+Corruption Pereception Index 2018: https://www.transparency.org/research/cpi/overview
+Freedom Index: https://freedomhouse.org/content/freedom-world-data-and-resources
+HDI: http://hdr.undp.org/en/composite/HDI
+Homicides: https://dataunodc.un.org/crime/intentional-homicide-victims
+
+Press freedom: https://rsf.org/sites/default/files/index_2019_-_pour_import_1_1.csv
+
+Pension system
+* https://info.mercer.com/rs/521-DEV-513/images/Mercer%20-%20MMGPI%20Report%202018.pdf
+* https://mpra.ub.uni-muenchen.de/31053/1/MPRA_paper_31053.pdf
+
+Health care
+* https://www.numbeo.com/health-care/rankings_by_country.jsp
+* https://www.who.int/healthinfo/paper30.pdf
+
+Start up friendly
+
+World bank ease of doing business:
+* https://data.worldbank.org/indicator/IC.BUS.EASE.XQ
