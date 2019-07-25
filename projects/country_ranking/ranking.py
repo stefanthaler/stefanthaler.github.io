@@ -36,6 +36,16 @@ data_sources = [
     loadfrom_csv("2018_pension_index"),
     loadfrom_csv("2018_healthcare_index"),
     loadfrom_csv("2000_who_health_ranking"),
+    loadfrom_csv("2017_internet_speed"),
+    loadfrom_csv("2019_average_percipitaiton"),
+    loadfrom_csv("2019_average_temperatures"),
+    loadfrom_csv("2018_corporate_tax_rates"),
+    loadfrom_csv("2019_employee_social_contribution"),
+    loadfrom_csv("2019_employer_social_contribution"),
+    loadfrom_csv("2019_individual_tax_rates"),
+    loadfrom_csv("2019_inflation_rate"),
+    loadfrom_csv("2019_vat"),
+
 ]
 
 

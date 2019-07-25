@@ -14,6 +14,18 @@ Health care
 * https://www.who.int/healthinfo/paper30.pdf
 
 Start up friendly
+* World bank ease of doing business: https://data.worldbank.org/indicator/IC.BUS.EASE.XQ
 
-World bank ease of doing business:
-* https://data.worldbank.org/indicator/IC.BUS.EASE.XQ
+Taxes:
+* Corporate tax https://home.kpmg/xx/en/home/services/tax/tax-tools-and-resources/tax-rates-online/corporate-tax-rates-table.html
+* individiual Income Taxes: https://home.kpmg/xx/en/home/services/tax/tax-tools-and-resources/tax-rates-online.html
+* eployee social tax: https://home.kpmg/xx/en/home/services/tax/tax-tools-and-resources/tax-rates-online/social-security-employee-tax-rates-table.html
+* employer social tax: https://home.kpmg/xx/en/home/services/tax/tax-tools-and-resources/tax-rates-online/social-security-employer-tax-rates-table.html
+* indirect taxes: https://home.kpmg/xx/en/home/services/tax/tax-tools-and-resources/tax-rates-online/indirect-tax-rates-table.html
+* VAT: sales tax https://tradingeconomics.com/country-list/sales-tax
+* capital taxes:
+* oecd countries https://data.oecd.org/tax/tax-on-corporate-profits.htm#indicator-chart
+
+Climate:
+* average temperature https://tradingeconomics.com/country-list/temperature
+*
