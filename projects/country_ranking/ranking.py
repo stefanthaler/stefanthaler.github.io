@@ -135,7 +135,7 @@ import csv
 
 filtered_t = []
 
-with open('merged_filtered.csv', 'w', newline='') as csvfile:
+with open('filtered.csv', 'w', newline='') as csvfile:
     merged_writer = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
     merged_writer.writerow(list(merged_t[0,:])) # header
@@ -199,7 +199,7 @@ sort_order = -np.array(sort_order)
 sorted_indizes = np.argsort(sort_order)
 
 
-with open('scaled.csv', 'w', newline='') as csvfile:
+with open('filtered_sorted_scaled.csv', 'w', newline='') as csvfile:
     merged_writer = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
     merged_writer.writerow(list(scaled_t[0,:])+["Sort criteria"]) # header
