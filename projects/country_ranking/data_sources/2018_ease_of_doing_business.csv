@@ -1,146 +1,192 @@
-Location,Indirect Tax rates
-Afghanistan,0
-Albania,20
-Algeria,19
-Angola,10
-Antigua and Barbuda,15
-Argentina,21
-Armenia,20
-Aruba,2
-Australia,10
-Austria,20
-Bahamas,12
-Bahrain,5
-Bangladesh,15
-Barbados,17.5
-Belarus,20
-Belgium,21
-Bermuda,0
-Bolivia,13
-Bosnia and Herzegovina,17
-Botswana,12
-Brazil,18
-Bulgaria,20
-Cambodia,10
-Canada,5
-Canary Islands,6.5
-Cayman Islands,0
-Chile,19
-China,16
-Colombia,19
-Costa Rica,13
-Croatia,25
-Curacao,6
-Cyprus,19
-Czech Republic,21
-Denmark,25
-Dominica,15
-Dominican Republic,18
-Ecuador,12
-Egypt,14
-El Salvador,13
-Estonia,20
-Fiji,9
-Finland,24
-France,20
-Georgia,18
-Germany,19
-Ghana,18.13
-Gibraltar,0
-Greece,24
-Grenada,15
-Guatemala,12
-Honduras,15
-Hong Kong SAR,0
-Hungary,27
-Iceland,24
-India,18
-Indonesia,10
-Iraq,0
+Country Name,Ease of Doing Business
+Afghanistan,167
+Angola,173
+Albania,63
+Andorra,
+United Arab Emirates,11
+Argentina,119
+Armenia,41
+American Samoa,
+Antigua and Barbuda,112
+Australia,18
+Austria,26
+Azerbaijan,25
+Burundi,168
+Belgium,45
+Benin,153
+Burkina Faso,151
+Bangladesh,176
+Bulgaria,59
+Bahrain,62
+"Bahamas, The",118
+Bosnia and Herzegovina,89
+Belarus,37
+Belize,125
+Bermuda,
+Bolivia,156
+Brazil,109
+Barbados,129
+Brunei Darussalam,55
+Bhutan,81
+Botswana,86
+Central African Republic,183
+Canada,22
+Switzerland,38
+Chile,56
+China,46
+Cote d'Ivoire,122
+Cameroon,166
+"Congo, Dem. Rep.",184
+"Congo, Rep.",180
+Colombia,65
+Comoros,164
+Cabo Verde,131
+Costa Rica,67
+Cyprus,57
+Czech Republic,35
+Germany,24
+Djibouti,99
+Dominica,103
+Denmark,3
+Dominican Republic,102
+Algeria,157
+Ecuador,123
+"Egypt, Arab Rep.",120
+Eritrea,189
+Spain,30
+Estonia,16
+Ethiopia,159
+Finland,17
+Fiji,101
+France,32
+"Micronesia, Fed. Sts.",160
+Gabon,169
+United Kingdom,9
+Georgia,6
+Ghana,114
+Guinea,152
+"Gambia, The",149
+Guinea-Bissau,175
+Equatorial Guinea,177
+Greece,72
+Grenada,147
+Guatemala,98
+Guyana,134
+"Hong Kong SAR, China",4
+Honduras,121
+Croatia,58
+Haiti,182
+Hungary,53
+Indonesia,73
+India,77
 Ireland,23
-Isle of Man,20
-Israel,17
-Italy,22
-Jamaica,16.5
-Japan,8
-Jordan,16
-Kazakhstan,12
-Kenya,16
-"Korea, Republic of",10
-Kuwait,0
-Latvia,21
-Lebanon,11
-Libya,0
-Liechtenstein,7.7
-Lithuania,21
-Luxembourg,17
-Macau,0
-Macedonia,18
-Malawi,16.5
-Malaysia,10
-Malta,18
-Mauritius,15
-Mexico,16
-Mongolia,10
-Montenegro,21
-Morocco,20
-Mozambique,17
-Namibia,15
-Netherlands,21
-New Zealand,15
-Nicaragua,15
-Nigeria,5
-Norway,25
-Oman,0
-Pakistan,17
-Panama,7
-Papua New Guinea,10
-Paraguay,10
-Peru,18
-Philippines,12
-Poland,23
-Portugal,23
-Puerto Rico,11.5
-Qatar,0
-Romania,19
-Russia,20
-Saint Kitts and Nevis,17
-Saint Lucia,12.5
-Saint Vincent and the Grenadines,16
-Samoa,15
-Saudi Arabia,5
-Senegal,18
-Serbia,20
-Sierra Leone,15
-Singapore,7
-Sint Maarten (Dutch part),5
-Slovakia,20
-Slovenia,22
-South Africa,15
-South Sudan,15
-Spain,21
-Sri Lanka,15
-St Maarten,5
-Sudan,17
-Swaziland,15
-Sweden,25
-Switzerland,7.7
-Syria,0
-Taiwan,5
-Tanzania,18
-Thailand,7
-Trinidad and Tobago,12.5
-Tunisia,18
-Turkey,18
-Uganda,18
-Ukraine,20
-United Arab Emirates,5
-United Kingdom,20
-United States,0
-Uruguay,22
-Vanuatu,15
-Venezuela,12
-Vietnam,10
-Yemen,5
-Zambia,16
-Zimbabwe,
+"Iran, Islamic Rep.",128
+Iraq,171
+Iceland,21
+Israel,49
+Italy,51
+Jamaica,75
+Jordan,104
+Japan,39
+Kazakhstan,28
+Kenya,61
+Kyrgyz Republic,70
+Cambodia,138
+Kiribati,158
+St. Kitts and Nevis,140
+"Korea, Rep.",5
+Kuwait,97
+Lao PDR,154
+Lebanon,142
+Liberia,174
+Libya,186
+St. Lucia,93
+Sri Lanka,100
+Lesotho,106
+Lithuania,14
+Luxembourg,66
+Latvia,19
+Morocco,60
+Moldova,47
+Madagascar,161
+Maldives,139
+Mexico,54
+Marshall Islands,150
+Mali,145
+Malta,84
+Myanmar,171
+Montenegro,50
+Mongolia,74
+Mozambique,135
+Mauritania,148
+Mauritius,20
+Malawi,111
+Malaysia,15
+Namibia,107
+Niger,143
+Nigeria,146
+Nicaragua,132
+Netherlands,36
+Norway,7
+Nepal,110
+New Zealand,1
+Oman,78
+Pakistan,136
+Panama,79
+Peru,68
+Philippines,124
+Palau,133
+Papua New Guinea,108
+Poland,33
+Puerto Rico,64
+Portugal,34
+Paraguay,113
+West Bank and Gaza,116
+Qatar,83
+Romania,52
+Russian Federation,31
+Rwanda,29
+Saudi Arabia,92
+Sudan,162
+Senegal,141
+Singapore,2
+Solomon Islands,115
+Sierra Leone,163
+El Salvador,85
+San Marino,88
+Somalia,190
+Serbia,48
+South Sudan,185
+Sao Tome and Principe,170
+Suriname,165
+Slovak Republic,42
+Slovenia,40
+Sweden,12
+Eswatini,117
+Seychelles,96
+Syrian Arab Republic,179
+Chad,181
+Togo,137
+Thailand,27
+Tajikistan,126
+Timor-Leste,178
+Tonga,91
+Trinidad and Tobago,105
+Tunisia,80
+Turkey,43
+Tanzania,144
+Uganda,127
+Ukraine,71
+Uruguay,95
+United States,8
+Uzbekistan,76
+St. Vincent and the Grenadines,130
+"Venezuela, RB",188
+Vietnam,69
+Vanuatu,94
+Samoa,90
+Kosovo,44
+"Yemen, Rep.",187
+South Africa,82
+Zambia,87
+Zimbabwe,155

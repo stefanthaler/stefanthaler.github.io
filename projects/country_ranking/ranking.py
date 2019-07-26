@@ -29,7 +29,7 @@ def loadfrom_csv(filename, country_name_col_id=0):
 data_sources = [
     loadfrom_csv("2017_freedom_index"),
     loadfrom_csv("2018_corruption_perception_index"),
-    loadfrom_csv("2017_un_hdi"),
+    loadfrom_csv("2017_un_ihdi"),
     loadfrom_csv("2015_2016_homicide_rate"),
     loadfrom_csv("2018_ease_of_doing_business"),
     loadfrom_csv("2019_press_freedom_index"),
@@ -90,5 +90,46 @@ import csv
 with open('merged.csv', 'w', newline='') as csvfile:
     merged_writer = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    for row in merged_t:
-        merged_writer.writerow(row)
+    merged_writer.writerow(list(merged_t[0,:])) # header
+    for row in merged_t[1:,:]: # other rows
+        merged_writer.writerow(list(row))
+
+def has_value(elem):
+    return elem and not elem=="-"
+
+def row_fits_filter(row):
+
+    # more than half of fields are empty
+    empty_elements = 0
+    for elem in row:
+        if not has_value(elem):
+            empty_elements+=1
+    if empty_elements>len(row)*0.5:
+        return False
+
+    # Freedom
+    if has_value(row[1]) and row[1] not in ["Free"]:
+        return False
+
+    # IHDI
+    if has_value(row[7]) and  float(row[7])<=0.70:
+        return False
+
+    # Income Gini
+    if has_value(row[19]) and (float(row[19])>=35.0 ):
+        return False
+
+    # Intentional Homicide Rate ( average EU 1, average high income 2)
+    if has_value(row[20]) and float(row[20])>=3.0:
+        return False
+
+    return True
+
+import csv
+with open('merged_filtered.csv', 'w', newline='') as csvfile:
+    merged_writer = csv.writer(csvfile, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    merged_writer.writerow(list(merged_t[0,:])) # header
+    for row in merged_t[1:,:]: # other rows
+        if row_fits_filter(row):
+            merged_writer.writerow(list(row))
