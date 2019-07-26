@@ -46,6 +46,8 @@ data_sources = [
     loadfrom_csv("2019_inflation_rate"),
     loadfrom_csv("2019_vat"),
     loadfrom_csv("2016_healthexp_per_capita"),
+    loadfrom_csv("2019_travel_distance_innsbruck"),
+    loadfrom_csv("2019_has_mountains"),
 
 ]
 
@@ -148,15 +150,17 @@ with open('filtered.csv', 'w', newline='') as csvfile:
 scaled_t = np.array(filtered_t)
 
 criteria = [ # high is good, so invert where high is bad
-    ( 7,3.0, False),# IHDI high is good
+    ( 7,1.0, False),# IHDI high is good
     (19,1.0, True),# gini high is bad
-    (21,3.0, True),# ease of doing business
+    (21,1.0, True),# ease of doing business
     (22,0.5, True),# press freedom
-    (23,2.0, False),# pension index
-    (41,3.0, True),# corporate tax high is bad
-    (44,3.0, True),# individual tax high is bad
+    (23,1.0, False),# pension index
+    (41,1.0, True),# corporate tax high is bad
+    (44,1.0, True),# individual tax high is bad
     (45,0.5, True),# inflation rate is bad
     (48,0.5, True),# high VAT rate is bad
+    (50,3.0, True),# high travel distance is bad
+    (51,2.0, False),# having mountains is good
 ]
 
 
@@ -167,7 +171,7 @@ def sort_criteria(row):
     for crit in criteria:
         if has_value(row[crit[0]]):
             sum+=float(row[crit[0]])*crit[1]
-            num_elem+=crit[1]
+            num_elem+=1.0
 
     return round(sum/float(num_elem),2)
 
@@ -198,10 +202,11 @@ for row in scaled_t[1:,:]: # other rows
 sort_order = -np.array(sort_order)
 sorted_indizes = np.argsort(sort_order)
 
+filtered_t = np.array(filtered_t)
 
-with open('filtered_sorted_scaled.csv', 'w', newline='') as csvfile:
+with open('filtered_sorted.csv', 'w', newline='') as csvfile:
     merged_writer = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    merged_writer.writerow(list(scaled_t[0,:])+["Sort criteria"]) # header
-    for row in scaled_t[1:,:][sorted_indizes]: # other rows, sorted
-        merged_writer.writerow(list(row) + [sort_criteria(row)])
+    merged_writer.writerow(list(np.array(filtered_t)[0,:])+["Sort criteria"]) # header
+    for i,row in enumerate(filtered_t[1:,:][sorted_indizes]): # other rows, sorted
+        merged_writer.writerow(list(row) + [-sort_order[sorted_indizes[i]]])
