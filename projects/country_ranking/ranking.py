@@ -45,6 +45,7 @@ data_sources = [
     loadfrom_csv("2019_individual_tax_rates"),
     loadfrom_csv("2019_inflation_rate"),
     loadfrom_csv("2019_vat"),
+    loadfrom_csv("2016_healthexp_per_capita"),
 
 ]
 
@@ -111,12 +112,15 @@ def row_fits_filter(row):
     if has_value(row[1]) and row[1] not in ["Free"]:
         return False
 
+    # HDI
+    if has_value(row[6]) and  float(row[6])<=0.80:
+        return False
     # IHDI
     if has_value(row[7]) and  float(row[7])<=0.70:
         return False
 
-    # Income Gini
-    if has_value(row[19]) and (float(row[19])>=35.0 ):
+    # Quintile Ratio
+    if has_value(row[17]) and (float(row[17])>=8.0 ):
         return False
 
     # Intentional Homicide Rate ( average EU 1, average high income 2)
@@ -125,11 +129,79 @@ def row_fits_filter(row):
 
     return True
 
+
+
 import csv
+
+filtered_t = []
+
 with open('merged_filtered.csv', 'w', newline='') as csvfile:
     merged_writer = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
     merged_writer.writerow(list(merged_t[0,:])) # header
+    filtered_t.append(list(merged_t[0,:]))
     for row in merged_t[1:,:]: # other rows
         if row_fits_filter(row):
-            merged_writer.writerow(list(row))
+            merged_writer.writerow(list(row) )
+            filtered_t.append(row)
+
+scaled_t = np.array(filtered_t)
+
+criteria = [ # high is good, so invert where high is bad
+    ( 7,3.0, False),# IHDI high is good
+    (19,1.0, True),# gini high is bad
+    (21,3.0, True),# ease of doing business
+    (22,0.5, True),# press freedom
+    (23,2.0, False),# pension index
+    (41,3.0, True),# corporate tax high is bad
+    (44,3.0, True),# individual tax high is bad
+    (45,0.5, True),# inflation rate is bad
+    (48,0.5, True),# high VAT rate is bad
+]
+
+
+
+def sort_criteria(row):
+    num_elem =0
+    sum  = 0
+    for crit in criteria:
+        if has_value(row[crit[0]]):
+            sum+=float(row[crit[0]])*crit[1]
+            num_elem+=crit[1]
+
+    return round(sum/float(num_elem),2)
+
+for crit in criteria:
+    c = crit[0]
+    col =  scaled_t[1:,c]
+    col_min = 1000000
+    col_max = 0
+    invert = crit[2]
+    for e in col:
+        if has_value(e):
+            if float(e)<col_min:
+                col_min=float(e)
+            if float(e)>col_max:
+                col_max=float(e)
+
+    for i,e in enumerate(col):
+        if has_value(e):
+            new_e = round(100*(float(e)-col_min)/float(col_max-col_min),1) # scale between 0-100
+            if invert:
+                new_e = 100-new_e
+            scaled_t[i+1,c]=new_e
+
+sort_order = []
+for row in scaled_t[1:,:]: # other rows
+    sort_order.append(sort_criteria(row))
+
+sort_order = -np.array(sort_order)
+sorted_indizes = np.argsort(sort_order)
+
+
+with open('scaled.csv', 'w', newline='') as csvfile:
+    merged_writer = csv.writer(csvfile, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    merged_writer.writerow(list(scaled_t[0,:])+["Sort criteria"]) # header
+    for row in scaled_t[1:,:][sorted_indizes]: # other rows, sorted
+        merged_writer.writerow(list(row) + [sort_criteria(row)])

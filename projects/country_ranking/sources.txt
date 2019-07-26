@@ -18,12 +18,19 @@ Pension system
 * https://info.mercer.com/rs/521-DEV-513/images/Mercer%20-%20MMGPI%20Report%202018.pdf
 * https://mpra.ub.uni-muenchen.de/31053/1/MPRA_paper_31053.pdf
 
+Homicide rate:
+1: SK 0.0008  TK 0.0771
+2: SK 0.0017  TK 0.1564
+3: SK 0.0025  TK 0.2214
+4: SK 0.0034  TK 0.2886
 Health care
 * https://www.numbeo.com/health-care/rankings_by_country.jsp
 * https://www.who.int/healthinfo/paper30.pdf
+* https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD
+* https://stats.oecd.org/index.aspx?DataSetCode=HEALTH_STAT
 
 Start up friendly
-* World bank ease of doing business: https://data.worldbank.org/indicator/IC.BUS.EASE.XQ
+  * World bank ease of doing business: https://data.worldbank.org/indicator/IC.BUS.EASE.XQ
 
 Taxes:
 * Corporate tax https://home.kpmg/xx/en/home/services/tax/tax-tools-and-resources/tax-rates-online/corporate-tax-rates-table.html
