@@ -207,6 +207,6 @@ filtered_t = np.array(filtered_t)
 with open('filtered_sorted.csv', 'w', newline='') as csvfile:
     merged_writer = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    merged_writer.writerow(list(np.array(filtered_t)[0,:])+["Sort criteria"]) # header
+    merged_writer.writerow( ["Sort criteria"] + list(np.array(filtered_t)[0,:])) # header
     for i,row in enumerate(filtered_t[1:,:][sorted_indizes]): # other rows, sorted
-        merged_writer.writerow(list(row) + [-sort_order[sorted_indizes[i]]])
+        merged_writer.writerow([-sort_order[sorted_indizes[i]]] + list(row) )

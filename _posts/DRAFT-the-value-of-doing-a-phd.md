@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is the value of doing a PhD?
+title: Was my PhD worth it?
 tags: [science, phd, reflection]
 ---
 A few months ago I completed my Ph.D. degree at the Technical University of Eindhoven. It took me almost five years to finish it, and one questions that I've heard many times is: "Was it worth it?". Answered from my guts I'd response - "Yes, and I'd do it again". But as I do not tend to solely rely on gut answers, here I would like to answer explore this answer in more depth.
@@ -13,10 +13,15 @@ So, let's go down the rabbit hole...
 
 <!-- What did I get  -->
 ## Gains of my PhD experience
+First, let's start with what I think that I have got out of my PhD experience. Broadly speaking, I can separate the gains in two categories: technical skills, such as the knowledge about how to use machine learning or how to write an academic paper, and meta-skills such as the ability to remain undecided on a matter until enough evidence is in. When I started my PhD journey, I was focused more on developing the technical skills. In hindsight, I think the meta-skills are more valuable, especially in the long run.
 
 <!-- knowledge about deep learning -->
 ### Machine Learning Knowledge
-With regard to the current market, one of the most valuable assets that I have acquired during my PhD is solid knowledge about machine learning. At the moment, there is a huge buzz about machine learning and data science, not only in Academia but also in Industry. Slam machine learning on top of anything, and your grant money or seed funding will flow. Large parts of my research were dedicated to apply machine learning to information security problems, and by doing so I got some knowledge about machine learning, how to use it, its capabilities, its limitations, and a bit how to design some the machine learning algorithms.
+With regard to the current market, one of the most valuable assets that I have acquired during my PhD is solid knowledge about machine learning. At the moment, there is a huge buzz about machine learning and data science, not only in Academia but also in Industry. Slam machine learning on top of anything, and the money will flow and customers will pour in.
+
+Large parts of my research were dedicated to apply machine learning to information security problems, and by doing so I got some knowledge about machine learning, how to use it, its capabilities, its limitations. In the end, I even started to design my own machine learning algorithms.
+
+Doing research using machine learning differs from applying machine learning in an industry setting, so using machine learning in a real world application is still a skill I have to learn. However, during my time in Academia I could play a lot with many of the bells and whistles of the machine learning algorithms, allowing me a much deeper look under the hood - a luxury that is rarely found in Industry.
 
 <!-- ability to read and assess scientific publications -->
 ### The ability to read scientific articles
