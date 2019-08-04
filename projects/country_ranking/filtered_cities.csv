@@ -1,0 +1,739 @@
+city_ascii,country,population
+Gamprin,Liechtenstein,
+Triesenberg,Liechtenstein,
+Schaan,Liechtenstein,
+Ruggell,Liechtenstein,
+Mauren,Liechtenstein,
+Eschen,Liechtenstein,
+Triesen,Liechtenstein,
+Balzers,Liechtenstein,
+Planken,Liechtenstein,
+Schellenberg,Liechtenstein,
+Capellen,Luxembourg,
+Esch-sur-Alzette,Luxembourg,
+Remich,Luxembourg,
+Echternach,Luxembourg,
+Mersch,Luxembourg,
+Redange-sur-Attert,Luxembourg,
+Vianden,Luxembourg,
+Wiltz,Luxembourg,
+Clervaux,Luxembourg,
+Luxembourg,Luxembourg,107260
+Maastricht,Netherlands,122378
+Amsterdam,Netherlands,1031000
+The Hague,Netherlands,1406000
+Haarlem,Netherlands,349957
+Groningen,Netherlands,216688
+Lelystad,Netherlands,
+Arnhem,Netherlands,141674
+Assen,Netherlands,62237
+'s-Hertogenbosch,Netherlands,134520
+Zwolle,Netherlands,111805
+Utrecht,Netherlands,640000
+Leeuwarden,Netherlands,125778
+Rotterdam,Netherlands,1005000
+Eindhoven,Netherlands,398053
+Tromso,Norway,52436
+Oslo,Norway,835000
+Baerum,Norway,113659
+Stavanger,Norway,173132
+Hermansverk,Norway,
+Kristiansand,Norway,63814
+Bergen,Norway,213585
+Skien,Norway,73330
+Drammen,Norway,90722
+Sarpsborg,Norway,
+Trondheim,Norway,147139
+Christchurch,New Zealand,363200
+Porirua,New Zealand,52500
+Nelson,New Zealand,60800
+Hamilton,New Zealand,148200
+Dunedin,New Zealand,117700
+Lower Hutt,New Zealand,102400
+Palmerston North,New Zealand,82400
+Wellington,New Zealand,393400
+Rotorua,New Zealand,56200
+Tauranga,New Zealand,121500
+Whangarei,New Zealand,52200
+Auckland,New Zealand,1377200
+Waitakere,New Zealand,208100
+Manukau,New Zealand,375600
+Napier,New Zealand,57800
+North Shore,New Zealand,205605
+New Plymouth,New Zealand,52500
+Drobeta-Turnu Severin,Romania,106578
+Braila,Romania,213569
+Oradea,Romania,213830
+Timisoara,Romania,315053
+Resita,Romania,83324
+Calarasi,Romania,73224
+Arad,Romania,169065
+Slobozia,Romania,52693
+Baia Mare,Romania,136553
+Tulcea,Romania,92475
+Ploiesti,Romania,232542
+Piatra-Neamt,Romania,102688
+Suceava,Romania,105796
+Botosani,Romania,114783
+Constanta,Romania,303399
+Buzau,Romania,130954
+Galati,Romania,311156
+Vaslui,Romania,69225
+Sfintu-Gheorghe,Romania,60677
+Bacau,Romania,199668
+Focsani,Romania,105112
+Bucharest,Romania,1942000
+Brasov,Romania,311044
+Pitesti,Romania,171021
+Tirgu Mures,Romania,149433
+Deva,Romania,67802
+Cluj-Napoca,Romania,316748
+Rimnicu Vilcea,Romania,107558
+Sibiu,Romania,155565
+Targu Jiu,Romania,97179
+Alba Lulia,Romania,66085
+Giurgiu,Romania,69067
+Zalau,Romania,63232
+Craiova,Romania,304142
+Hunedoara,Romania,
+Targoviste,Romania,88435
+Bistrita,Romania,81318
+Satu Mare,Romania,112490
+Slatina,Romania,78988
+Iasi,Romania,325914
+Vasteraas,Sweden,107194
+Uppsala,Sweden,
+Orebro,Sweden,98573
+Karlstad,Sweden,74141
+Goteborg,Sweden,537797
+Halmstad,Sweden,55657
+Linkoping,Sweden,96732
+Jonkoping,Sweden,89780
+Gavle,Sweden,68635
+Malmo,Sweden,269349
+Vaxjo,Sweden,59600
+Stockholm,Sweden,1264000
+Uppsala,Sweden,133117
+Umea,Sweden,78197
+Helsingborg,Sweden,91304
+Sundsvall,Sweden,73389
+Norrkoping,Sweden,88639
+Boras,Sweden,65008
+Ljubljana,Slovenia,314807
+Recica ob Savinji,Slovenia,
+Selnica ob Dravi,Slovenia,
+Semic,Slovenia,
+Salovci,Slovenia,
+Ribnica na Pohorju,Slovenia,
+Ribnica,Slovenia,
+Rogaska Slatina,Slovenia,
+Rogasovci,Slovenia,
+Rogatec,Slovenia,
+Ruse,Slovenia,
+Volcja Draga,Slovenia,
+Miklavz na Dravskem Polju,Slovenia,
+Miren,Slovenia,
+Poljcane,Slovenia,
+Prevalje,Slovenia,
+Race,Slovenia,
+Podlehnik,Slovenia,
+Prebold,Slovenia,
+Ptuj,Slovenia,
+Puconci,Slovenia,
+Postojna,Slovenia,
+Pivka,Slovenia,
+Radece,Slovenia,
+Polzela,Slovenia,
+Preddvor,Slovenia,
+Podvelka,Slovenia,
+Podcetrtek,Slovenia,
+Ajdovscina,Slovenia,
+Bled,Slovenia,
+Bistrica ob Sotli,Slovenia,
+Benedikt v Slovenskih Goricah,Slovenia,
+Beltinci,Slovenia,
+Gornji Petrovci,Slovenia,
+Grad,Slovenia,
+Grosuplje,Slovenia,
+Nova Vas,Slovenia,
+Spodnja Hajdina,Slovenia,
+Bohinjska Bistrica,Slovenia,
+Borovnica,Slovenia,
+Bovec,Slovenia,
+Braslovce,Slovenia,
+Brezice,Slovenia,
+Brezovica,Slovenia,
+Dobrovo,Slovenia,
+Cankova,Slovenia,
+Celje,Slovenia,
+Cerklje na Gorenjskem,Slovenia,
+Cerknica,Slovenia,
+Cerkno,Slovenia,
+Cerkvenjak,Slovenia,
+Crensovci,Slovenia,
+Crna na Koroskem,Slovenia,
+Crnomelj,Slovenia,
+Destrnik,Slovenia,
+Horjul,Slovenia,
+Kranjska Gora,Slovenia,
+Krizevci pri Ljutomeru,Slovenia,
+Krsko,Slovenia,
+Ilirska Bistrica,Slovenia,
+Ivancna Gorica,Slovenia,
+Izola,Slovenia,
+Jesenice,Slovenia,
+Koper,Slovenia,
+Kostanjevica na Krki,Slovenia,
+Kozje,Slovenia,
+Kranj,Slovenia,
+Lendava,Slovenia,
+Litija,Slovenia,
+Ljubno,Slovenia,
+Ljutomer,Slovenia,
+Spodnje Hoce,Slovenia,
+Hodos,Slovenia,
+Hrastnik,Slovenia,
+Kozina,Slovenia,
+Idrija,Slovenia,
+Ig,Slovenia,
+Zgornja Kungota,Slovenia,
+Kuzma,Slovenia,
+Lasko,Slovenia,
+Lenart v Slovenskih Goricah,Slovenia,
+Logatec,Slovenia,
+Log pri Brezovici,Slovenia,
+Stari Trg pri Lozu,Slovenia,
+Hrib-Loski Potok,Slovenia,
+Zgornje Jezersko,Slovenia,
+Jursinci,Slovenia,
+Kamnik,Slovenia,
+Kanal,Slovenia,
+Kidricevo,Slovenia,
+Kobarid,Slovenia,
+Kobilje,Slovenia,
+Kocevje,Slovenia,
+Komen,Slovenia,
+Sveta Trojica v Slovenskih Goricah,Slovenia,
+Pesnica pri Mariboru,Slovenia,
+Piran,Slovenia,
+Murska Sobota,Slovenia,
+Muta,Slovenia,
+Moravce,Slovenia,
+Novo Mesto,Slovenia,
+Odranci,Slovenia,
+Oplotnica,Slovenia,
+Ormoz,Slovenia,
+Moravske-Toplice,Slovenia,
+Mozirje,Slovenia,
+Mirna,Slovenia,
+Mirna Pec,Slovenia,
+Mislinja,Slovenia,
+Mokronog,Slovenia,
+Naklo,Slovenia,
+Nova Gorica,Slovenia,
+Dol pri Ljubljani,Slovenia,
+Dolenjske Toplice,Slovenia,
+Domzale,Slovenia,
+Dornava,Slovenia,
+Dravograd,Slovenia,
+Spodnji Duplek,Slovenia,
+Gorenja Vas,Slovenia,
+Gorisnica,Slovenia,
+Gornja Radgona,Slovenia,
+Gornji Grad,Slovenia,
+Zgornje Gorje,Slovenia,
+Divaca,Slovenia,
+Dobje pri Planini,Slovenia,
+Videm,Slovenia,
+Dobrna,Slovenia,
+Dobrova,Slovenia,
+Dobrovnik,Slovenia,
+Radenci,Slovenia,
+Radlje ob Dravi,Slovenia,
+Radovljica,Slovenia,
+Ravne na Koroskem,Slovenia,
+Sentjur,Slovenia,
+Sentrupert,Slovenia,
+Sevnica,Slovenia,
+Vitomarci,Slovenia,
+Straza,Slovenia,
+Sveta Ana v Slovenskih Goricah,Slovenia,
+Jurovski Dol,Slovenia,
+Sostanj,Slovenia,
+Sredisce ob Dravi,Slovenia,
+Starse,Slovenia,
+Store,Slovenia,
+Sveti Jurij ob Scavnici,Slovenia,
+Smartno ob Paki,Slovenia,
+Smartno pri Litiji,Slovenia,
+Sodrazica,Slovenia,
+Solcava,Slovenia,
+Slovenj Gradec,Slovenia,
+Slovenska Bistrica,Slovenia,
+Slovenske Konjice,Slovenia,
+Smarje pri Jelsah,Slovenia,
+Sencur,Slovenia,
+Sempeter pri Gorici,Slovenia,
+Sentilj,Slovenia,
+Sentjernej,Slovenia,
+Sezana,Slovenia,
+Skocjan,Slovenia,
+Skofja Loka,Slovenia,
+Skofljica,Slovenia,
+Razkrizje,Slovenia,
+Markovci,Slovenia,
+Medvode,Slovenia,
+Menges,Slovenia,
+Metlika,Slovenia,
+Mezica,Slovenia,
+Lovrenc na Pohorju,Slovenia,
+Luce,Slovenia,
+Lukovica pri Domzalah,Slovenia,
+Majsperk,Slovenia,
+Makole,Slovenia,
+Maribor,Slovenia,114228
+Tomaz pri Ormozu,Slovenia,
+Videm pri Ptuju,Slovenia,
+Tolmin,Slovenia,
+Trbovlje,Slovenia,
+Trebnje,Slovenia,
+Trzic,Slovenia,
+Turnisce,Slovenia,
+Velenje,Slovenia,
+Velike Lasce,Slovenia,
+Vipava,Slovenia,
+Vitanje,Slovenia,
+Vodice,Slovenia,
+Vrhnika,Slovenia,
+Vuzenica,Slovenia,
+Zagorje ob Savi,Slovenia,
+Zavrc,Slovenia,
+Zelezniki,Slovenia,
+Vojnik,Slovenia,
+Vransko,Slovenia,
+Zalec,Slovenia,
+Zetale,Slovenia,
+Zirovnica,Slovenia,
+Zuzemberk,Slovenia,
+Trnovska Vas,Slovenia,
+Trzin,Slovenia,
+Velika Polana,Slovenia,
+Verzej,Slovenia,
+Ziri,Slovenia,
+Zrece,Slovenia,
+Tabor,Slovenia,
+Tisina,Slovenia,
+Osilnica,Slovenia,
+Kostel,Slovenia,
+Cirkulane,Slovenia,
+Apace,Slovenia,
+Komenda,Slovenia,
+Smarjeske Toplice,Slovenia,
+Nazarje,Slovenia,
+Ankaran,Slovenia,
+Zilina,Slovakia,87625
+Bratislava,Slovakia,423737
+Trnava,Slovakia,69785
+Presov,Slovakia,94718
+Kosice,Slovakia,236563
+Trencin,Slovakia,
+Nitra,Slovakia,
+Banska Bystrica,Slovakia,82336
+Innsbruck,Austria,155214
+Salzburg,Austria,206279
+Linz,Austria,349161
+Wiener Neustadt,Austria,82762
+Sankt Polten,Austria,
+Graz,Austria,263234
+Klagenfurt,Austria,90610
+Vienna,Austria,2400000
+Brussels,Belgium,1743000
+Antwerpen,Belgium,920000
+Liege,Belgium,749110
+Hasselt,Belgium,69222
+Mons,Belgium,91277
+Gent,Belgium,444336
+Namur,Belgium,106284
+Charleroi,Belgium,345367
+Brugge,Belgium,146469
+Thunder Bay,Canada,99334
+Oshawa,Canada,450963
+Chicoutimi,Canada,53940
+Halifax,Canada,359111
+Saskatoon,Canada,198958
+Calgary,Canada,1110000
+Kamloops,Canada,68714
+St. John's,Canada,131469
+Vancouver,Canada,2313328
+Medicine Hat,Canada,63138
+Kelowna,Canada,125109
+Kingston,Canada,114195
+North Bay,Canada,50170
+Toronto,Canada,5213000
+Edmonton,Canada,1058000
+Lethbridge,Canada,70617
+Sudbury,Canada,157857
+Regina,Canada,176183
+London,Canada,346765
+Barrie,Canada,182041
+Sherbrooke,Canada,139652
+Chilliwack,Canada,51942
+Drummondville,Canada,59489
+Ottawa,Canada,1145000
+Prince George,Canada,65558
+St.-Jerome,Canada,78439
+Abbotsford,Canada,151683
+Trois Rivieres,Canada,119693
+Peterborough,Canada,83627
+Red Deer,Canada,74857
+Winnipeg,Canada,632063
+Nanaimo,Canada,84905
+Hamilton,Canada,721053
+Kitchener,Canada,417001
+Victoria,Canada,289625
+Saint John,Canada,87857
+Montreal,Canada,3678000
+Quebec,Canada,624177
+Moncton,Canada,90635
+Fredericton,Canada,52337
+Sarnia,Canada,144172
+Windsor,Canada,319246
+Schaffhausen,Switzerland,
+Aarau,Switzerland,
+Zurich,Switzerland,1108000
+Delemont,Switzerland,
+Basel,Switzerland,830000
+Solothurn,Switzerland,
+Luzern,Switzerland,250000
+Biel,Switzerland,78708
+Geneva,Switzerland,1240000
+Lausanne,Switzerland,265702
+Bern,Switzerland,275329
+Saint Gallen,Switzerland,70572
+Lugano,Switzerland,105388
+Usti Nad Labem,Czechia,94105
+Pardubice,Czechia,107064
+Jihlava,Czechia,53921
+Liberec,Czechia,102175
+Prague,Czechia,1162000
+Brno,Czechia,388277
+Pizen,Czechia,164180
+Ceske Budejovice,Czechia,98851
+Karlovy Vary,Czechia,
+Ostrava,Czechia,478963
+Olomouc,Czechia,101268
+Hradec Kralove,Czechia,95195
+Zlin,Czechia,124610
+Warrington,United Kingdom,
+Newbury,United Kingdom,
+Swindon,United Kingdom,
+Dudley,United Kingdom,
+Oxford,United Kingdom,192796
+Hackney,United Kingdom,
+Matlock,United Kingdom,
+Lochgilphead,United Kingdom,
+Northallerton,United Kingdom,
+Edinburgh,United Kingdom,504966
+Sunderland,United Kingdom,452934
+Swansea,United Kingdom,294339
+Wokingham,United Kingdom,
+City of Westminster,United Kingdom,
+Solihull,United Kingdom,
+Rochdale,United Kingdom,
+Nottingham,United Kingdom,825600
+Winchester,United Kingdom,
+Wembley,United Kingdom,
+Motherwell,United Kingdom,
+Reading,United Kingdom,369804
+Torquay,United Kingdom,
+Thornbury,United Kingdom,
+Oldham,United Kingdom,
+Elgin,United Kingdom,
+Wallsend,United Kingdom,
+Weston-super-Mare,United Kingdom,
+Hounslow,United Kingdom,
+Irvine,United Kingdom,
+Barnsley,United Kingdom,
+Falkirk,United Kingdom,
+Slough,United Kingdom,
+Huddersfield,United Kingdom,
+Kingston upon Hull,United Kingdom,302296
+Romford,United Kingdom,
+Grays,United Kingdom,
+Hertford,United Kingdom,
+Coventry,United Kingdom,388271
+Leicester,United Kingdom,457983
+Beverley,United Kingdom,
+Stirling,United Kingdom,
+Norwich,United Kingdom,190756
+Darlington,United Kingdom,
+Hereford,United Kingdom,
+Grimsby,United Kingdom,
+Bradford,United Kingdom,501700
+Bracknell,United Kingdom,
+Morpeth,United Kingdom,
+Gateshead,United Kingdom,
+Wandsworth,United Kingdom,
+South Shields,United Kingdom,
+Sheffield,United Kingdom,1292900
+Ystrad Mynach,United Kingdom,
+South Bank,United Kingdom,
+Haddington,United Kingdom,
+Aberaeron,United Kingdom,
+Cambridge,United Kingdom,128488
+Glenrothes,United Kingdom,
+Pen-y-Bont ar Ogwr,United Kingdom,
+Barri,United Kingdom,
+Carlisle,United Kingdom,72633
+Aylesbury,United Kingdom,
+Lincoln,United Kingdom,
+Bromley,United Kingdom,
+Blackpool,United Kingdom,272792
+Croydon,United Kingdom,
+Dorchester,United Kingdom,
+Hendon,United Kingdom,
+Hammersmith,United Kingdom,
+Bournemouth,United Kingdom,426945
+Dumbarton,United Kingdom,
+Luton,United Kingdom,235958
+Bristol,United Kingdom,553528
+Enfield,United Kingdom,
+Camberwell,United Kingdom,
+Truro,United Kingdom,
+Clydach Vale,United Kingdom,
+Telford,United Kingdom,
+Stockton-on-Tees,United Kingdom,
+Maidenhead,United Kingdom,
+Dalkeith,United Kingdom,
+Wood Green,United Kingdom,
+Pont-y-pwl,United Kingdom,
+Milton Keynes,United Kingdom,
+Hartlepool,United Kingdom,
+Harrow,United Kingdom,
+Oldbury,United Kingdom,
+Ashton-under-Lyne,United Kingdom,
+Wakefield,United Kingdom,
+Trowbridge,United Kingdom,
+Maidstone,United Kingdom,
+Poole,United Kingdom,
+Newport,United Kingdom,
+Walsall,United Kingdom,
+Woolwich,United Kingdom,
+Southend-on-Sea,United Kingdom,618386
+Scunthorpe,United Kingdom,
+Caernarfon,United Kingdom,
+Hamilton,United Kingdom,
+Durham,United Kingdom,
+Warwick,United Kingdom,
+Aberdeen,United Kingdom,189364
+Newtown Saint Boswells,United Kingdom,
+Sutton,United Kingdom,
+Catford,United Kingdom,
+Lambeth,United Kingdom,
+Lewes,United Kingdom,
+Dundee,United Kingdom,151592
+Ipswich,United Kingdom,143767
+Birmingham,United Kingdom,2285000
+Stoke,United Kingdom,390801
+Stockport,United Kingdom,
+Chelmsford,United Kingdom,
+Leeds,United Kingdom,1529000
+Bath,United Kingdom,93238
+Ayr,United Kingdom,69042
+Kirkintilloch,United Kingdom,
+Wallasey,United Kingdom,
+Conwy,United Kingdom,
+Rhuthun,United Kingdom,
+Walthamstow,United Kingdom,
+Halifax,United Kingdom,
+Peterborough,United Kingdom,140141
+Rotherham,United Kingdom,
+Alloa,United Kingdom,
+Southampton,United Kingdom,384417
+Ebbw Vale,United Kingdom,
+Forfar,United Kingdom,
+Islington,United Kingdom,
+Caerfyrddin,United Kingdom,
+Ealing,United Kingdom,
+Kilmarnock,United Kingdom,
+Newport,United Kingdom,
+Kensington,United Kingdom,
+Hwlffordd,United Kingdom,
+Uxbridge,United Kingdom,
+Twickenham,United Kingdom,
+Plymouth,United Kingdom,247297
+Livingston,United Kingdom,
+Portsmouth,United Kingdom,442252
+Paisley,United Kingdom,
+Exeter,United Kingdom,113118
+Widnes,United Kingdom,
+Stretford,United Kingdom,
+Stornoway,United Kingdom,
+Manchester,United Kingdom,2230000
+Morden,United Kingdom,
+London,United Kingdom,8567000
+Ilford,United Kingdom,
+Poplar,United Kingdom,
+Salford,United Kingdom,
+Derby,United Kingdom,
+Mold,United Kingdom,
+Worcester,United Kingdom,
+Rochester,United Kingdom,
+Chichester,United Kingdom,
+East Ham,United Kingdom,
+Oakham,United Kingdom,
+Gloucester,United Kingdom,
+Wrecsam,United Kingdom,
+Wolverhampton,United Kingdom,
+Llangefni,United Kingdom,
+Hove,United Kingdom,
+Brighton,United Kingdom,503008
+Doncaster,United Kingdom,
+Shrewsbury,United Kingdom,
+Glasgow,United Kingdom,1160000
+Camden Town,United Kingdom,
+Cardiff,United Kingdom,861400
+Bexleyheath,United Kingdom,
+Bury,United Kingdom,
+Greenock,United Kingdom,74635
+Middlesbrough,United Kingdom,416042
+Scarborough,United Kingdom,70571
+Merthyr Tudful,United Kingdom,
+Taunton,United Kingdom,
+York,United Kingdom,158947
+Port Talbot,United Kingdom,
+Dagenham,United Kingdom,
+Liverpool,United Kingdom,811000
+Saint Helens,United Kingdom,
+Knowsley,United Kingdom,
+Kingston upon Thames,United Kingdom,
+Wigan,United Kingdom,
+Southport,United Kingdom,
+Preston,United Kingdom,
+Blackburn,United Kingdom,
+Bolton,United Kingdom,
+Hugh Town,United Kingdom,
+Bedford,United Kingdom,
+Chicksands,United Kingdom,
+Sandbach,United Kingdom,
+Chester,United Kingdom,89531
+Llandrindod Wells,United Kingdom,
+Northampton,United Kingdom,
+Giffnock,United Kingdom,
+Newcastle,United Kingdom,882000
+Downpatrick,United Kingdom,
+Coleraine,United Kingdom,
+Magherafelt,United Kingdom,
+Dungannon,United Kingdom,
+Cookstown,United Kingdom,
+Bangor,United Kingdom,
+Strabane,United Kingdom,
+Londonderry,United Kingdom,83652
+Enniskillen,United Kingdom,
+Ballymena,United Kingdom,
+Banbridge,United Kingdom,
+Armagh,United Kingdom,
+Newtownabbey,United Kingdom,
+Craigavon,United Kingdom,
+Antrim,United Kingdom,
+Newry,United Kingdom,
+Lisburn,United Kingdom,
+Belfast,United Kingdom,
+Belfast,United Kingdom,450406
+Usk,United Kingdom,
+Stafford,United Kingdom,
+Slavonski Brod,Croatia,97718
+Pozega,Croatia,
+Virovitica,Croatia,
+Rijeka,Croatia,170992
+Krapina,Croatia,
+Sisak,Croatia,
+Osijek,Croatia,95077
+Koprivnica,Croatia,
+Cakovec,Croatia,
+Vukovar,Croatia,
+Zadar,Croatia,71258
+Gospic,Croatia,
+Varazdin,Croatia,
+Split,Croatia,214741
+Pazin,Croatia,
+Zagreb,Croatia,722526
+Karlovac,Croatia,55063
+Bjelovar,Croatia,
+Pula,Croatia,61599
+Mullingar,Ireland,
+Port Laoise,Ireland,
+Longford,Ireland,
+Lifford,Ireland,
+Wicklow,Ireland,
+An Cabhan,Ireland,
+Carrick on Shannon,Ireland,
+Wexford,Ireland,
+Galway,Ireland,75594
+Cork,Ireland,188907
+Dublin,Ireland,1059000
+Trim,Ireland,
+Limerick,Ireland,90054
+Clonmel,Ireland,
+Nenagh,Ireland,
+Swords,Ireland,
+Dunleary,Ireland,
+Tallaght,Ireland,
+Castlebar,Ireland,
+Naas,Ireland,
+Carlow,Ireland,
+Ennis,Ireland,
+Tullamore,Ireland,
+Venice,Italy,270816
+Trento,Italy,107808
+Cagliari,Italy,291511
+Rome,Italy,3339000
+Trieste,Italy,216035
+Palermo,Italy,863000
+Marsala,Italy,77784
+Campobasso,Italy,50762
+L'Aquila,Italy,68503
+Civitavecchia,Italy,61316
+Catanzaro,Italy,95251
+Genoa,Italy,647497
+Ancona,Italy,100507
+Bologna,Italy,488172
+Potenza,Italy,69060
+Bari,Italy,500577
+Milan,Italy,2945000
+Turin,Italy,1652000
+Naples,Italy,2250000
+Florence,Italy,1500000
+Perugia,Italy,149125
+Como,Italy,250000
+Novara,Italy,100910
+Asti,Italy,71276
+Sassari,Italy,120729
+Modena,Italy,175502
+Ferrara,Italy,130992
+Ravenna,Italy,134631
+Treviso,Italy,177309
+Verona,Italy,347459
+Udine,Italy,119009
+Bolzano,Italy,95895
+Bergamo,Italy,200000
+Salerno,Italy,954265
+Pescara,Italy,314789
+Arezzo,Italy,91589
+Siena,Italy,52625
+Livorno,Italy,156274
+Pisa,Italy,203336
+Parma,Italy,166011
+Catania,Italy,674542
+Messina,Italy,252026
+Ragusa,Italy,68956
+Siracusa,Italy,123657
+Reggio di Calabria,Italy,180353
+Crotone,Italy,60010
+Foggia,Italy,155203
+Barletta,Italy,107830
+Taranto,Italy,202033
+Brindisi,Italy,104437
+Lecce,Italy,162582
+Benevento,Italy,61791
+Caserta,Italy,250000

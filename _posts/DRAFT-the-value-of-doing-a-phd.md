@@ -17,7 +17,7 @@ First, let's start with what I think that I have got out of my PhD experience. B
 
 <!-- knowledge about deep learning -->
 ### Machine Learning Knowledge
-With regard to the current market, one of the most valuable assets that I have acquired during my PhD is solid knowledge about machine learning. At the moment, there is a huge buzz about machine learning and data science, not only in Academia but also in Industry. Slam machine learning on top of anything, and the money will flow and customers will pour in.
+With regard to the current market, one of the most valuable assets that I have acquired during my PhD is solid knowledge about machine learning. there is a huge buzz about machine learning and data science, not only in Academia but also in Industry. Slam machine learning on top of anything, and the money will flow and customers will pour in.
 
 Large parts of my research were dedicated to apply machine learning to information security problems, and by doing so I got some knowledge about machine learning, how to use it, its capabilities, its limitations. In the end, I even started to design my own machine learning algorithms.
 
@@ -25,20 +25,22 @@ Doing research using machine learning differs from applying machine learning in 
 
 <!-- ability to read and assess scientific publications -->
 ### The ability to read scientific articles
-These days, in most parts of the world the ability to read is often taken for granted. Nobody thinks that reading is a particularly difficult skill. However, being able to read and comprehend scientific publications is a whole different animal than being able to read a book for pleasure or a newspaper article.
+These days, in most parts of the world the ability to read is often taken for granted. Nobody thinks that reading is a particularly difficult skill. However, being able to read and comprehend scientific publications is a whole different animal than being able to read for pleasure.
 
-Scientists often pack a lot of information in an article, and they do so in a very compact way. Additionally, they typically use the technical jargon of their respective field to describe the ideas and experiments of the article.  
+<!-- why is it difficult? -->
+Scientists pack a lot of information in an article. Additionally, they describe the ideas and experiments the article using technical jargon of their respective field. Reading and understanding such material is a challenging task, because the reader needs to unpack the dense information that was packed into the article.
 
-Reading and understanding such material is a challenging task, as the reader needs to unpack the dense information that was packed into the article.
+<!-- What is the benefit? -->
+Whilst difficult, being able to read scientific articles bears some benefits and it is a requirement of doing research in the first place. It allows you to stay on top of current development your research field. Furthermore, it also allows you to form your own opinion on current developments. As such, it was a valuable trait for me to obtain.
 
 <!-- the ability to synthesize large amounts of often conflicting information -->
-Also, after a while I acquired and trained the skill to synthesize large amount of often conflicting information. Reading is part of your job description. On a typical day I read at least one to two papers superficially to grasp their main idea and to get an overview on a topic. To obtain the big picture view on a subject, you need to be able to place the presented ideas somewhere on this mental picture, and you need to relate it to other ideas. More often than not, you ideas conflict each other because different researchers have different views on matters, and you need to be able to keep such conflicting ideas and perspectives in your head.  
+After a while I not only learned to read scientific publications, but also learned to synthesize large amounts of often conflicting information. During my PhD I read a lot. On a typical day I read at least one to two papers superficially to grasp their main idea and to get an overview on a topic. To obtain the big picture view on a subject, you need to be able to place the presented ideas somewhere on this mental picture, and you need to relate it to other ideas. More often than not, you ideas conflict each other because different researchers have different views on matters, and you need to be able to keep such conflicting ideas and perspectives in your head - or at least on your notepad.
 
 ### The ability to assess scientific publications
-Reading and understanding the main ideas of scientific articles is an important skill, but it does not help you unless you are capable of assessing the knowledge on its scientific quality. That is, you need to be able to assess threats against the validity of the presented ideas, find logical flaws, wrong or incomplete assumptions and so on. I learned that ability, but of course only within my own confined field. For example, I would have a hard time assessing a paper proposing a new cryptographic algorithm, or a paper on a new cancer drug.
+Reading and understanding the main ideas of scientific articles is an important skill, but it does not help you unless you are capable of assessing the knowledge on its scientific quality. You need to be able to assess threats against the validity of the presented ideas, find logical flaws, wrong or incomplete assumptions and so on. I learned that ability, but of course only within my own confined field. For example, I would have a hard time assessing a paper proposing a new cryptographic algorithm, or a paper on a new cancer drug.
 
 <!-- learn to detect bullshit -->
-With that ability to assess scientific papers, also my ability to detect bullshit increased quite a bit. This skill is not only confined to my own field of expertise, but can also be translated to other domains. You get a sense of when someone is deliberately trying to be vague, or is overusing technical jargon, or is using meaningless phrases. During my PhD I developed a good sense when someone was bullshitting, and what kind of questions to ask to cut through the mess.
+With that ability to assess scientific papers, also my ability to detect bullshit increased quite a bit. This skill is not only confined to my own field of expertise, but can also be translated to other domains. You get a sense of when someone is deliberately trying to be vague, or is overusing technical jargon, or is using meaningless phrases. During my PhD I developed a good sense when someone was bullshitting, and what kind of questions to ask to cut through the mess. 
 
 <!-- Mental Resilience -->
 ### Mental Resilience
