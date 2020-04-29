@@ -5,7 +5,7 @@ permalink: /about/
 
 Hi, I'm Stefan, and this is my personal web page and blog.  
 
-You can find my professional homepage [here](https://thaler-it.net). You can find some my personal projects on my [Projects](/projects/) page. You can find a list of my publications on [Google Scholar](https://scholar.google.nl/citations?user=kwYKk5EAAAAJ&hl=en&oi=ao) and the source code of some of my projects on [GitHub](https://github.com/stefanthaler/) and you can find some links to interesting sites and materials on the [Resources](/resources/) page.
+You can find my professional homepage [here](https://thaler-it.net). You can find my personal projects on my [Projects](/projects/) page, and the source code of some of my projects on [GitHub](https://github.com/stefanthaler/). My publications are on [Google Scholar](https://scholar.google.nl/citations?user=kwYKk5EAAAAJ&hl=en&oi=ao) and you can find some interesting stuff on my [Resources](/resources/) page.
 
 <!--
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
