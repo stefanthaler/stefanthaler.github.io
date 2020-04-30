@@ -3,27 +3,25 @@ layout: post
 title: Was my PhD worth it?
 tags: [science, phd, reflection]
 ---
-A few months ago I completed my Ph.D. degree at the Technical University of Eindhoven. It took me almost five years to finish it, and one questions that I've heard many times is: "Was it worth it?". Answered from my guts I'd response - "Yes, and I'd do it again". But as I do not tend to solely rely on gut answers, here I would like to answer explore this answer in more depth.
+About a year ago I completed my Ph.D. degree at the Technical University of Eindhoven. It took me almost five years to finish it, and one questions that I've heard many times is: "Was it worth it?". Answered from my guts I'd response - "Yes, and I'd do it again". But as I do not tend to solely rely on gut answers, here I would like to answer explore this answer in more depth.
 
-The purpose of this essay is to reflect on my personal experiences. I am not trying to convince anybody of anything, or trying to find arguments for or against pursuing a PhD or not. To do so would be a folly, as PhD experiences differ a lot. What you will get from the process of obtaining the degree depends greatly on your personality and your context.  
+The purpose of this essay is to reflect on my personal experiences. I am not trying to convince anybody of anything, or trying to find arguments for or against pursuing a Ph.D. or not. To do so would be a folly, as PhD experiences differ a lot. What you will get such a process depends greatly on your personality and your context.  
 
 "Was it worth is?" is a vague question that cannot be directly answered. So to properly answer it I need to find more precise questions that reflect "the worth". I came up with three questions: "What did I gain from this experience?", "What did I have to pay for it?" and "Could I have gained  somewhere else better?". The answers to these three questions form the structure of the remaining essay.
 
 So, let's go down the rabbit hole...
 
 <!-- What did I get  -->
-## Gains of my PhD experience
-First, let's start with what I think that I have got out of my PhD experience. Broadly speaking, I can separate the gains in two categories: technical skills, such as the knowledge about how to use machine learning or how to write an academic paper, and meta-skills such as the ability to remain undecided on a matter until enough evidence is in. When I started my PhD journey, I was focused more on developing the technical skills. In hindsight, I consider the meta-skill more valueable.
+## What did I gain from pursuing a Ph.D.
+First, let's start with what I think that I have got out of my Ph.D.experience. Broadly speaking, I can separate the gains in two categories: technical skills, such as the knowledge about how to use machine learning or how to write an academic paper, and meta-skills such as the ability to remain undecided on a matter until enough evidence is in.
 
 <!-- knowledge about deep learning -->
-### Machine Learning Knowledge
-With regard to the current market, one of the most valuable assets that I have acquired during my PhD is solid knowledge about machine learning, particularly deep learning. I mainly studied the application of machine learning to information security problems. That means, I looked at traditional security problems and rephrased them such that a machine learning algorithm can solve them.
-
-As a consequence, I learned a lot about the ups and downs of using machine learning to solve your problems. Also, I had enough time to study the inner workings of some of the algorithms - an academic luxury that is rarely found in an industry setting. In the end, I was capable of designing my own algorithms, which is pretty neat. 
+### Machine learning knowledge
+One of the technical skills that I have acquired during my Ph.D. is some solid machine learning knowledge. One of the biggest advantages of doing a Ph.D. is that you are not only learning to use some technology in order to implementing a product, but you also get some play time with the technology. You can take a week or two to work out the details of a certain algorithm, or look under the hood of some implementations. As a consequence, I learned a lot about the ups and downs of using machine learning to solve your problems, and got a deep look into an exciting field.
 
 <!-- ability to read and assess scientific publications -->
 ### The ability to read scientific articles
-These days, in most parts of the world the ability to read is often taken for granted. Nobody thinks that reading is a particularly difficult skill. However, being able to read and comprehend scientific publications is a whole different animal than being able to read for pleasure.
+These days, in most parts of the world the ability to read is often taken for granted. Nobody thinks that reading is a particularly difficult skill. However, being able to read and comprehend scientific publications is a whole different animal than being able to read books or news paper articles.
 
 <!-- why is it difficult? -->
 Scientists pack a lot of information in an article. Additionally, they describe the ideas and experiments the article using technical jargon of their respective field. Reading and understanding such material is a challenging task, because the reader needs to unpack the dense information that was packed into the article.
