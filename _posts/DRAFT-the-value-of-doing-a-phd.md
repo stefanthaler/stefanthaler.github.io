@@ -35,7 +35,6 @@ After a while I not only learned to read scientific publications, but also learn
 ### The ability to assess scientific publications
 Reading and understanding the main ideas of scientific articles is an important skill. Equally important for a scientist is the skill of assessing the presented knowledge on its scientific quality. You need to be able to assess threats against the validity of the presented ideas, find logical flaws, wrong or incomplete assumptions and so on. I learned that ability, but of course only within my own confined field. For example, I would have a hard time assessing a paper proposing a new cryptographic algorithm, or a paper on a new cancer drug.
 
-
 <!-- learn to detect bullshit -->
 With that ability to assess scientific papers, also my ability to detect bullshit increased quite a bit. I can also translate this bullshit-detection skill to other domains. You get a sense of when someone is deliberately trying to be vague, or is overusing technical jargon, or is using meaningless phrases. During my PhD I developed a good sense when someone was bullshitting, and what kind of questions to ask to cut through the mess.
 
@@ -125,19 +124,13 @@ In an environment where you have to be self-motivated to achieve your goals, pro
 
 <!-- What did I pay for it -->
 ## Pains of the PhD
-
-It is difficult to determine what I have actually payed, because you don't really know what you would have spent and gained if you had taken an alternative route in your life. I try to estimate these by my work experiences before the PhD and publicly available numbers.
+So if I pause and ponder now for a moment, the Ph.D. experience brought quite some gains for me. However, no gains without pains, so let's reflect on what I have actually paid. It is difficult to determine what I have actually payed, because you don't really know what you would have spent and gained if you had taken an alternative route in your life. But I'll try to do my best.
 
 ### Time
-Following a PhD program did not only take me five years of my life, it also took way more hours during that time. I frequently spend long hours in the office, worked from home, on the weekends and in the evenings. 50-60 hours work weeks were fairly normal, and some times, when I had teaching duties or needed to travel it could easily be more. As a consequence, my social relationships, other personal interests and my personal well-being suffered.
-
-So compared to a normal job, the PhD cost me an extra 1-1.5 years of life-time that I would've otherwise spent differently.
-
-### Health
-Working more and being mentally more agitated than usual left its traces. I don't know how I can put a number on that, but there were many days where I felt stressed, depressed, anxious, or couldn't sleep properly. I did not suffer any mental breakdown or had a burnout, but I am fairly sure that working on my PhD reduced the quality of my life and my health.
+I finished the Ph.D. program in about five years, and during that time I frequently spend long hours in the office, worked from home, on the weekends and in the evenings. 50-60 hours work per week were fairly normal, and some times, when I had teaching duties or needed to travel it could easily be more. If I compare that to a "normal" job, the PhD cost me an extra 1-1.5 years of life-time that I could've otherwise spent differently. Most of the time I did enjoy my work, so I am not sure if I wanted to spend the time differently, but I guess it is fair to say that I had less time for meeting friends, family, or doing something else.  
 
 ### Money
-Although you get a fairly decent salary for pursuing a PhD degree in the Netherlands, I earned less than I could have if I had worked as a software engineer. I guess I could have earned 80k-100k more in industry over the course of the five years, and that does not account for compounding effects later in life. So I strongly doubt that my PhD pays of financially.
+Although you get a fairly decent salary for pursuing a Ph.D. degree in the Netherlands, I earned less than I could have if I had worked as a software engineer. I guess over the course of 5 years I could have earned 80k-100k more in industry, and that does not account for compounding effects later in life.  
 
 ## Could I have gotten the gains otherwise?
 
