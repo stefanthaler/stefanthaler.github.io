@@ -13,7 +13,7 @@ So, let's go down the rabbit hole...
 
 <!-- What did I get  -->
 ## What did I gain from pursuing a Ph.D.
-First, let's start with what I think that I have got out of my Ph.D.experience. Broadly speaking, I can separate the gains in two categories: technical skills, such as the knowledge about how to use machine learning or how to write an academic paper, and meta-skills such as the ability to remain undecided on a matter until enough evidence is in.
+Broadly speaking, I can separate the gains in two categories: technical skills, such as the knowledge about how to use machine learning or how to write an academic paper, and meta-skills such as the ability to remain undecided on a matter until enough evidence is in.
 
 <!-- knowledge about deep learning -->
 ### Machine learning knowledge
@@ -21,32 +21,32 @@ One of the technical skills that I have acquired during my Ph.D. is some solid m
 
 <!-- ability to read and assess scientific publications -->
 ### The ability to read scientific articles
-These days, in most parts of the world the ability to read is often taken for granted. Nobody thinks that reading is a particularly difficult skill. However, being able to read and comprehend scientific publications is a whole different animal than being able to read books or news paper articles.
+These days, in most parts of the world the ability to read is often taken for granted. Nobody thinks that reading is a particularly difficult skill. However, being able to read and comprehend scientific publications is a whole different animal.
 
 <!-- why is it difficult? -->
-Scientists pack a lot of information in an article. Additionally, they describe the ideas and experiments the article using technical jargon of their respective field. Reading and understanding such material is a challenging task, because the reader needs to unpack the dense information that was packed into the article.
+Scientists pack a lot of information in an article. They describe the ideas and experiments the article using technical jargon of their respective field. Reading and understanding such material is a challenging task, because the reader needs to unpack the dense information that was packed into the article.
 
 <!-- What is the benefit? -->
 Whilst difficult, being able to read scientific articles bears some benefits and it is a requirement of doing research in the first place. It allows you to stay on top of current development your research field. Furthermore, it also allows you to form your own opinion on current developments. As such, it was a valuable trait for me to obtain.
 
 <!-- the ability to synthesize large amounts of often conflicting information -->
-After a while I not only learned to read scientific publications, but also learned to synthesize large amounts of often conflicting information. During my Ph.D. I read a lot. On a typical day I read at least one to two papers superficially to grasp their main idea and to get an overview on a topic. To obtain the big picture view on a subject, you need to be able to place the presented ideas somewhere on this mental picture, and you need to relate it to other ideas. More often than not, you ideas conflict each other because different researchers have different views on matters, and you need to be able to keep such conflicting ideas and perspectives in your head - or at least on your notepad.
+After a while I not only learned to read scientific publications, but also learned to synthesize large amounts of often conflicting information. During my Ph.D. I read a lot. On a typical day I read at least one to two papers superficially to grasp their main idea and to get an overview on a topic. To obtain the big picture view on a subject, you need to be able to place the presented ideas somewhere on this mental picture, and you need to relate it to other ideas. More often than not, ideas conflict each other because researchers hold different views on matters, and you need to be able to keep such conflicting ideas and perspectives in your head - or at least on your notepad.
 
 ### The ability to assess scientific publications
 Reading and understanding the main ideas of scientific articles is an important skill. Equally important for a scientist is the skill of assessing the presented knowledge on its scientific quality. You need to be able to assess threats against the validity of the presented ideas, find logical flaws, wrong or incomplete assumptions and so on. I learned that ability, but of course only within my own confined field. For example, I would have a hard time assessing a paper proposing a new cryptographic algorithm, or a paper on a new cancer drug.
 
 <!-- learn to detect bullshit -->
-With that ability to assess scientific papers, also my ability to detect bullshit increased quite a bit. I can also translate this bullshit-detection skill to other domains. You get a sense of when someone is deliberately trying to be vague, or is overusing technical jargon, or is using meaningless phrases. During my Ph.D. I developed a good sense when someone was bullshitting, and what kind of questions to ask to cut through the mess.
+With that ability to assess scientific papers, also my ability to detect bullshit increased. I can also translate this bullshit-detection skill to other domains. You get a sense of when someone is deliberately trying to be vague, or is overusing technical jargon, or is using meaningless phrases. During my Ph.D. I developed a good sense when someone was bullshitting, and what kind of questions to ask to cut through the mess.
 
 <!-- Mental Resilience -->
 ### Mental Resilience
-During your Ph.D. you are put through all kinds of stress, which helps you to train your mental resilience. One of these stresses is that you are working on a topic that you cannot really get help from anyone, because no one or not many have worked on a problem like that. As a consequence, you often try to solve problems in ways that don't work, which can be extremely frustrating. Often, you fruitlessly try to achieve something for months in row without every getting it to work. Not being able to ask anyone (or only a few)
+During your Ph.D. you are put through all kinds of stress, which helps you to train your mental resilience. One of these stresses is that you are working on a topic that you cannot really get help from anyone, because no one or only very few have worked on a problem like that. As a consequence, you often try to solve problems in ways that don't work, which can be extremely frustrating. But all this mental blows actually strengthen your mental resilience.
 
 <!-- Confidence  -->
 ### Confidence boost
-Another benefit for me of doing my Ph.D. was that it boosted my confidence in myself. When I started, I felt incredibly lost. Everything was confusing. 
+Another benefit for me of doing my Ph.D. was that it boosted my confidence in myself. When I started, I felt incredibly lost. Everything was confusing.
 
- Everything was confusing and I had a hard time reading and understanding the scientific literature. I did not know where to start, which problem to pick. But, after a few months you get the hang of it, you start to bear the chaos and the unknown until you feel comfortable in the mess.  now have the feeling that I can take on big, difficult tasks that take a long time to continue, because I know that if I hang in there and show up every day to work on that task that I have a fair chance to succeed.
+Everything was confusing and I had a hard time reading and understanding the scientific literature. I did not know where to start, which problem to pick. But, after a few months you get the hang of it, you start to bear the chaos and the unknown until you feel comfortable in the mess.  now have the feeling that I can take on big, difficult tasks that take a long time to continue, because I know that if I hang in there and show up every day to work on that task that I have a fair chance to succeed.
 
 <!-- asking questions -->
 ### Question asking
