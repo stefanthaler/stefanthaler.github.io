@@ -15,7 +15,9 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 
 **Machine Learning**
 **Information Security**
-**Math**
+
+**Math** During most of my Ph.D. I worked on machine learning, which relies heavily on math, in particular on Statistics, Information Theory, Probability Theory, Linear Algebra and Calculus. When you truly understand what you want to achieve with a machine learning model, you have to dive deeper in those sub fields of Mathematics. But my Ph.D. also improved my mathematical thinking in general. I improved in logical thinking and my skill to defining abstract things more precisely.
+
 **Philosophy** A Ph.D. program is an institution that prepares you to be a scientist. A scientist's core business is to create new knowledge in a systematic way. If you want to thoroughly understand knowledge creation, you will eventually leave the domain of science and enter the domain of philosophy, in particular the [philosophy of science](https://en.wikipedia.org/wiki/Philosophy_of_science). The philosophy of science tries to answer questions about what is science (and what isn't), what is knowledge, how can you create it, what is the relationship between scientific knowledge and the truth and so on.
 
 
