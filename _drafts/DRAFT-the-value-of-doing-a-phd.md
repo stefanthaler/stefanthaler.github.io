@@ -13,9 +13,9 @@ I loosely categorize my gains into four categories: knowledge, skills, character
 ## Knowledge
 Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty of time to read, think try things, and meet other knowledgeable people. The knowledge that I've gained over the course of my Ph.D. can be coarsely grouped in four categories: Machine Learning, Information Security, Math and Philosophy.
 
-**Machine Learning** During my Ph.D. I had to get time to get familiar with many machine learning techniques, in particular neural networks (or deep learning). 
+**Machine Learning** During my Ph.D. I had to get time to get familiar with many machine learning techniques, in particular neural networks (or deep learning). In the beginning, I spent most of my time trying to piece together working models to solve a specific task. Later in my Ph.D., I started experimenting with custom loss functions, in particular ones that allow you to add domain knowledge to the learning process.  
 
-**Information Security** Being surrounded by people working on different subjects in information security you gain a lot of insights about the developments in the different domains.
+**Information Security** Being surrounded by people working on different subjects in information security you gain a lot of insights about the developments in the different domains. Most of that knowledge is superficial, but you keep an overview of what is happening in the field and what problems people are working in. 
 
 **Math** During most of my Ph.D. I worked on machine learning, which relies heavily on math, in particular on Statistics, Information Theory, Probability Theory, Linear Algebra and Calculus. When you truly understand what you want to achieve with a machine learning model, you have to dive deeper in those sub fields of Mathematics. But my Ph.D. also improved my mathematical thinking in general. I improved in logical thinking and my skill to defining abstract things more precisely.
 
