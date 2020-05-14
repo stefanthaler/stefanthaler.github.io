@@ -15,7 +15,7 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 
 **Machine Learning** During my Ph.D. I had to get time to get familiar with many machine learning techniques, in particular neural networks (or deep learning). In the beginning, I spent most of my time trying to piece together working models to solve a specific task. Later in my Ph.D., I started experimenting with custom loss functions, in particular ones that allow you to add domain knowledge to the learning process.  
 
-**Information Security** Being surrounded by people working on different subjects in information security you gain a lot of insights about the developments in the different domains. Most of that knowledge is superficial, but you keep an overview of what is happening in the field and what problems people are working in. 
+**Information Security** Being surrounded by people working on different subjects in information security you gain a lot of insights about the developments in the different domains. Most of that knowledge is superficial, but you keep an overview of what is happening in the field and what problems people are working in.
 
 **Math** During most of my Ph.D. I worked on machine learning, which relies heavily on math, in particular on Statistics, Information Theory, Probability Theory, Linear Algebra and Calculus. When you truly understand what you want to achieve with a machine learning model, you have to dive deeper in those sub fields of Mathematics. But my Ph.D. also improved my mathematical thinking in general. I improved in logical thinking and my skill to defining abstract things more precisely.
 
@@ -27,7 +27,7 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 
 **Assessing scientific papers**
 
-**Dealing with scientific code**
+**Dealing with scientific code** Software development in- and outside Academia are very different. Outside of Academia, you typically have a well-defined and maintained APIs and libraries which you can use to write your software. If you stumble over a bug, you can report the issue, or find a solution to your  problem in a forum such as StackOverflow. Source code in Academia is very different. It is often written by scientists that don't have a software engineering background, 
 
 **Communicating clearly**
 
