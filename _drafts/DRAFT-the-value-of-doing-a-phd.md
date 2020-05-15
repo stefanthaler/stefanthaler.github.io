@@ -25,9 +25,9 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 
 **Understanding scientific papers** To an outsider, scientific people appear challenging to read. The language is concise, often dense and full of technical jargon that makes it difficult to read and and understand scientific people. A skill that I've learned during my Ph.D. is unpacking and understanding the dense information that is stored in such papers.
 
-**Assessing scientific papers**
+**Assessing scientific papers** Once you understand what is actually proposed in a paper, you need to be able to assess the scientific qualities of the proposed ideas. What these qualities are depend on the domain and the type of research in the paper. I've learned to look for flaws, assess the logical correctness and to find missing information, and I've learned to give an estimate of the truth of what is written. 
 
-**Dealing with scientific code** Software development in- and outside Academia are very different. Outside of Academia, you typically have a well-defined and maintained APIs and libraries which you can use to write your software. If you stumble over a bug, you can report the issue, or find a solution to your  problem in a forum such as StackOverflow. Source code in Academia is very different. It is often written by scientists that don't have a software engineering background, 
+**Dealing with scientific code** Software development in- and outside Academia are very different. Outside of Academia, you typically have a well-defined and maintained APIs and libraries which you can use to write your software. If you stumble over a bug, you can report the issue, or find a solution to your  problem in a forum such as StackOverflow. Source code in Academia is very different. It is often written by scientists that don't have a software engineering background,
 
 **Communicating clearly**
 
