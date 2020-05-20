@@ -29,13 +29,13 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 
 **Dealing with scientific code** Software development in- and outside Academia are very different. Outside of Academia, you typically have a well-defined and maintained APIs and libraries which you can use to write your software. If you stumble over a bug, you can report the issue, or find a solution to your  problem in a forum such as StackOverflow. Source code in Academia is very different. It is often written by scientists that don't have a proper software engineering background. Consequently, the code somehow works, but it is written in a poor quality, often using outdated libraries or complicated setup procedures. If the code breaks, or you find a bug, most of the times you are on your own to solve it. If you are lucky you can contact the scientist that wrote the code, and with even more like you get a response in a reasonable amount of time.  
 
-**Communicating clearly** The setting of a Ph.D. program also strongly encourages to learn how to communicate clearly. Most of the stuff you work on is abstract. Moreover, you work on your tiny obscure sub-problem, which you know a lot about but not many other people do. Since communicating your ideas to fellow scientists and other people is part of your job, you learn how to present such abstract ideas in a more clear way. 
+**Communicating clearly** The setting of a Ph.D. program also strongly encourages to learn how to communicate clearly. Most of the stuff you work on is abstract. Moreover, you work on your tiny obscure sub-problem, which you know a lot about but not many other people do. Since communicating your ideas to fellow scientists and other people is part of your job, I've learned to present such abstract ideas in a clearer way.
 
 **Thinking in a structured way**
 
 **Writing scientific papers**
 
-**Beating procrastination**
+**Beating procrastination** Ph.D. positions at a University offer a significant amount of freedom on how, where and when and on what you want to work. In my case, I had to show up for the meetings I had with my supervisor and my students, but the rest was up to me. There were no fixed working hours, and nobody checked where I was and what I did. As long as I produced some output, everything was fine. The upside of this is that you get a lot of freedom on how to structure your day. But with more freedom comes more responsibility, and as soon as you start realizing your freedom, you start procrastinating. A bit of Reddit here, some chat messages there, and so on. 
 
 **Detecting bullshit**
 
