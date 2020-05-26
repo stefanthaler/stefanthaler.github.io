@@ -37,7 +37,7 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 
 **Beating procrastination** Ph.D. positions at a University offer a significant amount of freedom on how, where and when and on what you want to work. In my case, I had to show up for the meetings I had with my supervisor and my students, but the rest was up to me. There were no fixed working hours, and nobody checked where I was and what I did. As long as I produced some output, everything was fine. The upside of this is that you get a lot of freedom on how to structure your day. But with more freedom comes more responsibility, and as soon as you start realizing your freedom, you start procrastinating. A bit of Reddit here, some chat messages there, and so on. If your deadlines are far away, and you are faced with lots of freedom, procrastination becomes a huge challenge. It took me a while to realize that, but after a while I managed to implement the habits that keep me from being distracted and work on what I should work.
 
-**Detecting bullshit**
+**Detecting bullshit** Another fairly valuable skill that I practiced quite a bit during my Ph.D. is to spot bullshit. Being surrounded in a setting where you can basically claim anything, you develop a sense of what can be true and what is likely not. You learn to spot gaps in reasoning, and you learn to ask the right questions when somebody is trying to convince you with pretty, impressive sounding words. You learn to look for evidence, and you get a feeling when there is a lack thereof.  
 
 **Asking critical questions**
 
