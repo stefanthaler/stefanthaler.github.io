@@ -39,9 +39,10 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 
 **Detecting bullshit** Another fairly valuable skill that I practiced quite a bit during my Ph.D. is to spot bullshit. Being surrounded in a setting where you can basically claim anything, you develop a sense of what can be true and what is likely not. You learn to spot gaps in reasoning, and you learn to ask the right questions when somebody is trying to convince you with pretty, impressive sounding words. You learn to look for evidence, and you get a feeling when there is a lack thereof.  
 
-**Asking critical questions**
+**Asking critical questions** Asking questions in a systematic, reflective way is one of the more valuable skills that I have learned throughout my Ph.D. By that I mean asking questions that assess the quality of certain thoughts, ideas or arguments in a systematic way. Asking critical questions is closely linked to critical thinking - asking the right questions will lead to the right thinking. Critical thinking used to be part of a scientists education in earlier days, these days it is more attributed as a philosophical discipline. However, for  me personally I found that science and philosophy cannot really be separated.
 
 ## Character traits
+The environment you are in and the challenges you face shape your character. During my Ph.D., I believe that I strengthened many of these character traits, but in particular these four: Humility, mental resilience, perseverance, intellectual courage and autonomy.
 
 **Humility**
 
@@ -50,6 +51,9 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 **Perseverance**
 
 **Autonomy**
+
+**Intellectual courage**
+
 
 ## Others
 **Friendships**
