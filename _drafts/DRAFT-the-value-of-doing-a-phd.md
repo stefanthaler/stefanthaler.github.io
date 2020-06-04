@@ -44,7 +44,7 @@ Doing a Ph.D. allows you to collect a vast amount of knowledge. You have plenty 
 ## Character traits
 The environment you are in and the challenges you face shape your character. During my Ph.D., I believe that I strengthened many of these character traits, but in particular these four: Humility, mental resilience, perseverance, intellectual courage and autonomy.
 
-**Humility**
+**Humility** Before I did my Ph.D., I was fairly confident about my skills. I knew that there was a lot out there that I didn't know, but at least within my domain I thought I had a good overview of what was happening. While doing my Ph.D. I realized that not only did I not know many things, it also revealed to me that I don't really truly fully understand most things. True understanding of a subject is rare and difficult, and it takes a lot of time and dedication. Realizing this gap was a humbling experience, and my Ph.D. experience left me with a much clearer knowledge about the borders of my own knowledge and own understanding. 
 
 **Mental resilience**
 
