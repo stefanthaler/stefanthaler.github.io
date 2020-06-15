@@ -52,7 +52,7 @@ The environment you are in and the challenges you face shape your character. Dur
 
 **Autonomy**
 
-**Intellectual courage** During your Ph.D., you most likely will work on novel ideas. Working on novel ideas teaches you the courage to think differently, defend your position. Furthermore, if you do your Ph.D. right, you will learn to accept other unfamiliar or disliked points of views, if only for the sake of argument. 
+**Intellectual courage** During your Ph.D., you most likely will work on novel ideas. Working on novel ideas teaches you the courage to think differently, defend your position. Furthermore, if you do your Ph.D. right, you will learn to accept other unfamiliar or disliked points of views, if only for the sake of argument. Being able to look at an issue from an angle that you dislike instead of dismissing it because it is not your point of view takes intellectual courage. 
 
 
 ## Others
