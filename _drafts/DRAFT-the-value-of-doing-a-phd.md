@@ -50,9 +50,9 @@ The environment you are in and the challenges you face shape your character. Dur
 
 **Perseverance**
 
-**Autonomy**
+**Autonomy** Modern day academia -- with all it's ups and downs -- is one of the freest institutions in our society. This typically translates to quite some freedom for employees in Universities. During my Ph.D. I could come and go when I pleased. I could work on side-projects how I liked. Apart from that, most of the tools that a researcher need are not really developed, so  . All this helped me to become more autonomous than I used to be. x 
 
-**Intellectual courage** During your Ph.D., you most likely will work on novel ideas. Working on novel ideas teaches you the courage to think differently, defend your position. Furthermore, if you do your Ph.D. right, you will learn to accept other unfamiliar or disliked points of views, if only for the sake of argument. Being able to look at an issue from an angle that you dislike instead of dismissing it because it is not your point of view takes intellectual courage. 
+**Intellectual courage** During your Ph.D., you most likely will work on novel ideas. Working on novel ideas teaches you the courage to think differently, defend your position. Furthermore, if you do your Ph.D. right, you will learn to accept other unfamiliar or disliked points of views, if only for the sake of argument. Being able to look at an issue from an angle that you dislike instead of dismissing it because it is not your point of view takes intellectual courage, and throughout my Ph.D. I got plenty of opportunity to practice this character trait.
 
 
 ## Others
