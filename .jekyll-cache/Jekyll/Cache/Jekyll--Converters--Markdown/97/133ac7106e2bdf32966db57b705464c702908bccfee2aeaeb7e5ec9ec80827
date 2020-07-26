@@ -1,11 +1,6 @@
----
-title: About
-permalink: /about/
----
+I"?<p>Hi, I’m Stefan, and this is my personal web page and blog.</p>
 
-Hi, I'm Stefan, and this is my personal web page and blog.  
-
-You can find my professional homepage [here](https://thaler-it.net). You can find my personal projects on my [Projects](/projects/) page, and the source code of some of my projects on [GitHub](https://github.com/stefanthaler/). My publications are on [Google Scholar](https://scholar.google.nl/citations?user=kwYKk5EAAAAJ&hl=en&oi=ao) and you can find some interesting stuff on my [Resources](/resources/) page.
+<p>You can find my professional homepage <a href="https://thaler-it.net">here</a>. You can find my personal projects on my <a href="/projects/">Projects</a> page, and the source code of some of my projects on <a href="https://github.com/stefanthaler/">GitHub</a>. My publications are on <a href="https://scholar.google.nl/citations?user=kwYKk5EAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a> and you can find some interesting stuff on my <a href="/resources/">Resources</a> page.</p>
 
 <!--
 You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
@@ -135,3 +130,4 @@ $ rake preview
 
 This theme is released under MIT License.
 -->
+:ET
