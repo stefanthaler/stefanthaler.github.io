@@ -110,7 +110,7 @@ A typical human needs around 2.4 mcg of vitamin B12 daily.
 
 Liver is a cheap source of vitamin B12, however, as large quantities of liver may be toxic, it is not recommended to eat it regularly. The cheapest source of non-toxic vitamin B12 is mollusks, followed by nutritional yeast, which give provide you the daily needed Vitamin B12 for only a few cents, followed by milk products, which will give you your daily dose of Vitamin B12 for around half a euro. The cheapest meat based competitor I could find is again minced meat, which is almost 10 times as expensive as mollusks or nutritional yeast.
 
-I have included supplements, because an estimated 90% of animals are actually supplemented Vitamin B12. Unlike commonly assumed, animals do not produce B12 themselves, but get it from eating from the ground. Since most livestock does not eat from the ground anymore, it does not get vitamin B12 directly. 
+I have included supplements, because an estimated 90% of animals are actually supplemented Vitamin B12. Unlike commonly assumed, animals do not produce B12 themselves, but get it from eating from the ground. Since most livestock does not eat from the ground anymore, it does not get vitamin B12 directly.
 
 ## Omega 3
 * Flax seed oil: 1€ buys you 49539 mg
@@ -143,7 +143,7 @@ Grass fed
 ## Ground water
 ## Soil degradation
 ## Pandemics
-## Anti biotic resistance
+## Antibiotic resistance
 
 
 
@@ -228,8 +228,16 @@ https://www.hhs.gov/fitness/eat-healthy/dietary-guidelines-for-americans/index.h
 * Limit saturated fat and trans fat and replace them with the better fats, monounsaturated and polyunsaturated. If you need to lower your blood cholesterol, reduce saturated fat to no more than 5 to 6 percent of total calories. For someone eating 2,000 calories a day, that’s about 13 grams of saturated fat.
 * Limit saturated fat, trans fat, sodium, red meat, sweets and sugar-sweetened beverages. If you choose to eat red meat, compare labels and select the leanest cuts available.
 
+## World Cancer Research Fund  / American Institute for cancer research
+
+https://www.wcrf.org/dietandcancer/cancer-prevention-recommendations
+
+350-500 lean red mead, substitute with fish, if possible. avoid processed meat. meat is not a necessary component of a healthy diet.
+
+
 ## Conclusion
 The general gist in these recommendations for healthy nutrition seems to be: eat some meat, in particularly fish, but don't eat too much meat, in particularly avoid fatty, red and especially processed meats.
+
 
 # The pleasure of eating meat
 
@@ -244,14 +252,14 @@ Taste changes
 
 
 # Dismantled arguments
+There are a few arguments that follow faulty reasoning.
+
 
 ## You need meat because it contains essential nutrients
-This is simply not true. None of the essential vitamins, nutrients, and minerals are exclusively found in animal based products, and most of the plant-based alternatives are cheaper, more nutrient-dense sources. I've presented some alternatives from vitamins and nutrients that are typically associated with meat, but it easy to check for other minerals and vitamins that this is not true.
-
-
+This is simply not true. None of the essential vitamins, nutrients, and minerals are exclusively found in animal based products, and most of the plant-based alternatives are cheaper, more nutrient-dense sources. I've presented some alternatives from vitamins and nutrients that are typically associated with meat, but it easy to check for other minerals and vitamins that this is not true. It is not true for proteins (a check in nutrient database will reveal so), neither is it true for Vitamin B12, which is produced by bacteria and archaea, and can be found in untreated water and on plants if they are not washed.  
 
 ## We should eat meat because it is natural to do so
-This argument typical goes along the lines: animals eat other animals, so it is natural to eat animals, which is why humans should do it.This argument is an appeal to nature, which is a logical fallacy. Just because some part of the natural world does something, or just because you can do something does not make it right, healthy or acceptable.
+This argument typically goes along the lines: animals eat other animals, so it is natural to eat animals, which is why humans should do it.This argument is an appeal to nature, which is a logical fallacy. Just because some part of the natural world does something, or just because you can do something does not make it right, healthy or acceptable.
 
 Arguments that follow a similar structure could be used to allow absurd consequences, which is why we should reject it. For example, animals eat grass, so it is natural to eat grass, which is why we humans should do it.  
 
@@ -261,13 +269,12 @@ Another arguments goes along the line: we can digest meat, so it is natural for 
 It is easy to see why this is not true. One can probably survive quite some time on potato chips, pasta and tomato ketchup, and an occasional vitamin pill. This is a completely vegan diet, but it is definitely not a healthy one. There is plenty of room of messing up any diet, simply excluding one group of foods of your diet does not make your diet healthy.
 
 ## Humans have the right to eat animals because we are more intelligent than animals
-Our intelligence certainly enables us to kill and eat animals, but this argument is wrong, because intelligence is no relevant criteria for deciding whether we it is right to kill another being. If that were true, this would again allow absurd consequences, namely that more intelligent people are allowed to kill and eat other, less intelligent people.  
-
-
-
-
-
+Our intelligence certainly enables us to kill and eat animals, but this argument is wrong, because intelligence is no relevant criteria for deciding whether we it is right to kill another being. If that were true, this would again allow absurd consequences, namely that more intelligent people are allowed to kill and eat other, less intelligent people.
 
 # Conclusions
+
+From an health perspective, it seems to make sense to moderate your meat consumption, and while a little meat can be part of a healthy diet, there seems to be little evidence that it has to be. From an economic and an ecological perspective, meat is an expensive treat, both in terms of monetary and other resources, thus it would also make sense to moderate your meat consumption. From an ethical perspective, killing an animal seems to be ok in some contexts, but raising animals under horrible conditions and condemn them to a live of misery and suffering is not ok.  
+
+Put together, my conclusion is that it makes sense to moderate ones meat consumption, and abolish the gruesome ways that animals are treated within the meat production industry.
 
 # Resources
